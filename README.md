@@ -23,11 +23,12 @@ python -m http.server 8791
 
 ## 毎日自動更新
 
-`install_daily_update.bat` で Windows タスクを登録すると、毎朝 6:00 に `goods.json` を更新します。
+GitHub Actions が **毎朝 6:00（日本時間）** に r1b.jp から商品を再取得し、`goods.json` を更新して公開サイトへ反映します。
 
-- 手動更新: `update_goods.bat`
-- タスク名: `Round1GoodsUpdate`
-- 更新後は GitHub Desktop で commit & push すると公開サイトも最新になります
+- 手動実行: GitHub の Actions タブ → **Daily goods update** → **Run workflow**
+- ローカルでも更新したい場合: `update_goods.bat`
+
+PC側のタスクスケジューラ（`Round1GoodsUpdate`）は不要です。残っている場合は削除して構いません。
 
 ## ファイル
 

@@ -1,0 +1,47 @@
+name: Daily goods update
+
+on:
+  schedule:
+    # 毎日 6:00 JST = 21:00 UTC（前日）
+    - cron: "0 21 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pages: write
+
+concurrency:
+  group: daily-goods-update
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Fetch goods from r1b.jp
+        run: python fetch_goods.py
+
+      - name: Commit and push if changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add goods.json
+          if git diff --staged --quiet; then
+            echo "No changes in goods.json"
+            exit 0
+          fi
+          git commit -m "Update goods.json ($(date -u +%Y-%m-%d))"
+          git push
