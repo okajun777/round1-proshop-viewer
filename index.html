@@ -1,0 +1,744 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<meta name="theme-color" content="#c8102e">
+<meta name="description" content="ROUND1プロショップ（r1b.jp）の商品をカテゴリ・ブランド別に検索できます。">
+<meta property="og:title" content="ROUND1 プロショップ商品一覧">
+<meta property="og:description" content="ボール・シューズ・バッグなどをカテゴリ・ブランド別に表示">
+<meta property="og:type" content="website">
+<meta property="og:image" content="http://r1b.jp/assets/img/logo.png">
+<title>ROUND1 プロショップ商品一覧（カテゴリ別）</title>
+<style>
+  :root{
+    --bg:#f5f5f5;
+    --panel:#ffffff;
+    --ink:#1a1a1a;
+    --sub:#6b7280;
+    --line:#e5e7eb;
+    --accent:#c8102e;
+    --accent-soft:#fde8eb;
+    --accent-dark:#9a0c22;
+    --chip:#fff;
+  }
+  *{box-sizing:border-box;}
+  body{
+    margin:0;
+    font-family:"Meiryo UI","Hiragino Kaku Gothic ProN","Hiragino Sans","Noto Sans JP",sans-serif;
+    background:var(--bg);
+    color:var(--ink);
+  }
+  header{
+    background:linear-gradient(135deg,#c8102e,#8b0a1e);
+    color:#fff;
+    padding:14px 20px;
+    padding-top:calc(14px + env(safe-area-inset-top));
+  }
+  .header-row{
+    display:flex;
+    justify-content:space-between;
+    align-items:flex-start;
+    gap:12px;
+  }
+  header h1{
+    margin:0 0 4px;
+    font-size:1.15rem;
+    letter-spacing:.02em;
+  }
+  header p{
+    margin:0;
+    color:#ffd6dc;
+    font-size:0.78rem;
+  }
+  header a{
+    color:#fff;
+    text-decoration:underline;
+    text-underline-offset:2px;
+  }
+  .share-btn{
+    flex-shrink:0;
+    border:1px solid rgba(255,255,255,.45);
+    background:rgba(255,255,255,.12);
+    color:#fff;
+    border-radius:999px;
+    padding:8px 12px;
+    font-size:0.78rem;
+    font-weight:700;
+    font-family:inherit;
+    cursor:pointer;
+    white-space:nowrap;
+  }
+  .share-btn:active{background:rgba(255,255,255,.22);}
+  .toast{
+    position:fixed;
+    left:50%;
+    bottom:calc(20px + env(safe-area-inset-bottom));
+    transform:translateX(-50%) translateY(20px);
+    background:#111;
+    color:#fff;
+    padding:10px 16px;
+    border-radius:999px;
+    font-size:0.82rem;
+    opacity:0;
+    pointer-events:none;
+    transition:opacity .2s, transform .2s;
+    z-index:50;
+  }
+  .toast.show{
+    opacity:1;
+    transform:translateX(-50%) translateY(0);
+  }
+  .layout{
+    max-width:1280px;
+    margin:0 auto;
+    padding:16px 20px 40px;
+  }
+  .cats{
+    display:flex;
+    flex-wrap:wrap;
+    gap:8px;
+    margin:16px 0 12px;
+  }
+  .cat-btn{
+    border:1px solid var(--line);
+    background:var(--chip);
+    border-radius:999px;
+    padding:8px 14px;
+    font-size:0.85rem;
+    font-family:inherit;
+    cursor:pointer;
+    color:var(--sub);
+    display:inline-flex;
+    align-items:center;
+    gap:6px;
+    transition:all .15s;
+  }
+  .cat-btn .n{
+    font-size:0.72rem;
+    background:#f3f4f6;
+    color:var(--sub);
+    border-radius:999px;
+    padding:1px 7px;
+    font-weight:700;
+  }
+  .cat-btn.active{
+    background:var(--accent);
+    border-color:var(--accent);
+    color:#fff;
+  }
+  .cat-btn.active .n{
+    background:rgba(255,255,255,.22);
+    color:#fff;
+  }
+  .panel{
+    background:var(--panel);
+    border:1px solid var(--line);
+    border-radius:12px;
+    padding:14px 16px;
+    margin-bottom:16px;
+  }
+  .filters{
+    display:grid;
+    grid-template-columns:1.3fr 1fr 1fr 1fr auto;
+    gap:12px;
+    align-items:end;
+  }
+  .field label{
+    display:block;
+    font-size:0.75rem;
+    font-weight:600;
+    color:var(--sub);
+    margin-bottom:5px;
+  }
+  input[type="text"], select{
+    width:100%;
+    padding:8px 10px;
+    border:1px solid var(--line);
+    border-radius:8px;
+    font-size:0.9rem;
+    font-family:inherit;
+  }
+  .reset-btn{
+    padding:9px 14px;
+    border:none;
+    border-radius:8px;
+    background:var(--accent-soft);
+    color:var(--accent);
+    font-weight:600;
+    cursor:pointer;
+    font-size:0.85rem;
+    font-family:inherit;
+    white-space:nowrap;
+  }
+  .reset-btn:hover{background:#f8cfd5;}
+  .toolbar{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    flex-wrap:wrap;
+    gap:10px;
+    margin-bottom:14px;
+  }
+  .count{font-size:0.95rem; color:var(--sub);}
+  .count strong{color:var(--accent); font-size:1.15rem;}
+  .meta{font-size:0.75rem; color:var(--sub);}
+  .grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fill,minmax(220px,1fr));
+    gap:14px;
+  }
+  .card{
+    background:var(--panel);
+    border:1px solid var(--line);
+    border-radius:12px;
+    overflow:hidden;
+    display:flex;
+    flex-direction:column;
+    transition:box-shadow .15s, transform .15s;
+  }
+  .card:hover{
+    box-shadow:0 6px 18px rgba(0,0,0,.08);
+    transform:translateY(-1px);
+  }
+  .card a{
+    color:inherit;
+    text-decoration:none;
+    display:flex;
+    flex-direction:column;
+    flex:1;
+  }
+  .card-img{
+    aspect-ratio:1/1;
+    background:#f8fafc;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    padding:10px;
+  }
+  .card-img img{
+    width:100%;
+    height:100%;
+    object-fit:contain;
+  }
+  .card-body{
+    padding:12px 14px 14px;
+    display:flex;
+    flex-direction:column;
+    gap:6px;
+    flex:1;
+  }
+  .card-top{
+    display:flex;
+    justify-content:space-between;
+    gap:8px;
+    align-items:center;
+  }
+  .brand{
+    font-size:0.78rem;
+    color:var(--accent-dark);
+    font-weight:800;
+    letter-spacing:.02em;
+  }
+  .maker{
+    font-size:0.68rem;
+    color:var(--sub);
+    font-weight:600;
+  }
+  .badge{
+    font-size:0.68rem;
+    background:var(--accent);
+    color:#fff;
+    border-radius:999px;
+    padding:2px 7px;
+    font-weight:700;
+  }
+  .name{
+    font-size:0.95rem;
+    font-weight:700;
+    line-height:1.35;
+    margin:0;
+  }
+  .cate-tag{
+    font-size:0.7rem;
+    color:var(--accent);
+    background:var(--accent-soft);
+    border-radius:6px;
+    padding:2px 7px;
+    width:fit-content;
+    font-weight:600;
+  }
+  .prices{
+    margin-top:auto;
+    padding-top:6px;
+  }
+  .member{
+    color:var(--accent);
+    font-weight:800;
+    font-size:1.05rem;
+  }
+  .member small{
+    font-size:0.7rem;
+    font-weight:600;
+    margin-right:4px;
+  }
+  .list-price{
+    font-size:0.78rem;
+    color:var(--sub);
+    text-decoration:line-through;
+  }
+  .empty, .loading, .error{
+    text-align:center;
+    padding:48px 20px;
+    color:var(--sub);
+    background:var(--panel);
+    border:1px solid var(--line);
+    border-radius:12px;
+  }
+  .error{color:#b91c1c; background:#fef2f2; border-color:#fecaca;}
+  .pager{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    gap:10px;
+    margin-top:18px;
+    flex-wrap:wrap;
+  }
+  .pager button{
+    border:1px solid var(--line);
+    background:#fff;
+    border-radius:8px;
+    padding:8px 14px;
+    font-family:inherit;
+    cursor:pointer;
+  }
+  .pager button:disabled{
+    opacity:.4;
+    cursor:default;
+  }
+  .pager .pageinfo{
+    font-size:0.85rem;
+    color:var(--sub);
+  }
+  @media (max-width:880px){
+    header{padding:12px 14px; padding-top:calc(12px + env(safe-area-inset-top));}
+    header h1{font-size:1.02rem;}
+    header p{font-size:0.7rem; line-height:1.4;}
+    .layout{
+      padding:10px 12px calc(28px + env(safe-area-inset-bottom));
+    }
+    .cats{
+      flex-wrap:nowrap;
+      overflow-x:auto;
+      -webkit-overflow-scrolling:touch;
+      gap:6px;
+      margin:10px 0 10px;
+      padding-bottom:4px;
+      position:sticky;
+      top:0;
+      z-index:10;
+      background:linear-gradient(var(--bg) 70%, transparent);
+      padding-top:4px;
+    }
+    .cat-btn{
+      flex:0 0 auto;
+      padding:10px 14px;
+      font-size:0.82rem;
+      min-height:42px;
+    }
+    .panel{padding:12px; border-radius:10px;}
+    .filters{grid-template-columns:1fr 1fr; gap:10px;}
+    .filters .field:first-child,
+    .filters .reset-btn{grid-column:1 / -1;}
+    .reset-btn{min-height:44px;}
+    input[type="text"], select{
+      font-size:16px;
+      min-height:42px;
+    }
+    .toolbar{margin-bottom:10px;}
+    .meta{width:100%;}
+    .grid{grid-template-columns:repeat(2,minmax(0,1fr)); gap:10px;}
+    .card-body{padding:10px;}
+    .name{font-size:0.84rem;}
+    .member{font-size:0.95rem;}
+    .pager button{min-height:42px; min-width:72px;}
+  }
+</style>
+</head>
+<body>
+<header>
+  <div class="header-row">
+    <div>
+      <h1>ROUND1 プロショップ商品一覧</h1>
+      <p>
+        <a href="http://r1b.jp/" target="_blank" rel="noopener">r1b.jp</a>
+        の取扱商品をカテゴリ別に表示・検索できます。価格は税込・店舗取扱要確認。
+      </p>
+    </div>
+    <button type="button" class="share-btn" id="shareBtn">LINEで共有</button>
+  </div>
+</header>
+<div class="toast" id="toast" role="status"></div>
+
+<div class="layout">
+  <div id="cats" class="cats"></div>
+
+  <div class="panel">
+    <div class="filters">
+      <div class="field">
+        <label for="q">キーワード</label>
+        <input id="q" type="text" placeholder="商品名・ブランドで検索">
+      </div>
+      <div class="field">
+        <label for="brand">ブランド</label>
+        <select id="brand"><option value="">すべて</option></select>
+      </div>
+      <div class="field">
+        <label for="maker">取り扱い</label>
+        <select id="maker"><option value="">すべて</option></select>
+      </div>
+      <div class="field">
+        <label for="sort">並び替え</label>
+        <select id="sort">
+          <option value="member_asc">会員価格が安い順</option>
+          <option value="member_desc">会員価格が高い順</option>
+          <option value="discount_desc">割引率が高い順</option>
+          <option value="name_asc">名前順</option>
+          <option value="brand_asc">ブランド順</option>
+        </select>
+      </div>
+      <button type="button" class="reset-btn" id="reset">リセット</button>
+    </div>
+  </div>
+
+  <div class="toolbar">
+    <div class="count">表示 <strong id="shown">0</strong> / <span id="total">0</span> 件</div>
+    <div class="meta" id="fetched"></div>
+  </div>
+
+  <div id="status" class="loading">商品データを読み込み中…</div>
+  <div id="grid" class="grid" hidden></div>
+  <div id="pager" class="pager" hidden></div>
+</div>
+
+<script>
+const CATEGORY_ORDER = [
+  { key: "all", name: "すべて" },
+  { key: "ball", name: "ボール" },
+  { key: "shoes", name: "シューズ" },
+  { key: "bag", name: "バッグ" },
+  { key: "ware", name: "ウェア" },
+  { key: "glove", name: "グローブ" },
+  { key: "tape", name: "テープ" },
+  { key: "cleaner", name: "クリーナー" },
+  { key: "other", name: "その他" },
+];
+const PAGE_SIZE = 48;
+
+const state = {
+  items: [],
+  category: "ball",
+  q: "",
+  brand: "",
+  maker: "",
+  sort: "member_asc",
+  page: 1,
+};
+
+const els = {
+  cats: document.getElementById("cats"),
+  q: document.getElementById("q"),
+  brand: document.getElementById("brand"),
+  maker: document.getElementById("maker"),
+  sort: document.getElementById("sort"),
+  reset: document.getElementById("reset"),
+  shown: document.getElementById("shown"),
+  total: document.getElementById("total"),
+  fetched: document.getElementById("fetched"),
+  status: document.getElementById("status"),
+  grid: document.getElementById("grid"),
+  pager: document.getElementById("pager"),
+};
+
+function yen(n) {
+  if (n == null || Number.isNaN(n)) return "—";
+  return "¥" + Number(n).toLocaleString("ja-JP");
+}
+
+function categoryCounts(items) {
+  const counts = { all: items.length };
+  for (const it of items) {
+    counts[it.category_key] = (counts[it.category_key] || 0) + 1;
+  }
+  return counts;
+}
+
+function renderCats() {
+  const counts = categoryCounts(state.items);
+  els.cats.innerHTML = CATEGORY_ORDER.map((c) => {
+    const n = counts[c.key] || 0;
+    const active = state.category === c.key ? " active" : "";
+    return `<button type="button" class="cat-btn${active}" data-cat="${c.key}">${c.name}<span class="n">${n}</span></button>`;
+  }).join("");
+}
+
+function fillSelect(selectEl, values, current) {
+  selectEl.innerHTML =
+    `<option value="">すべて</option>` +
+    values.map((v) => `<option value="${escapeAttr(v)}">${escapeHtml(v)}</option>`).join("");
+  selectEl.value = values.includes(current) ? current : "";
+  return selectEl.value;
+}
+
+function fillFilters() {
+  const brands = [...new Set(state.items.map((i) => i.brand).filter(Boolean))].sort((a, b) =>
+    a.localeCompare(b, "ja")
+  );
+  const makers = [...new Set(state.items.map((i) => i.maker).filter(Boolean))].sort((a, b) =>
+    a.localeCompare(b, "ja")
+  );
+  state.brand = fillSelect(els.brand, brands, state.brand);
+  state.maker = fillSelect(els.maker, makers, state.maker);
+}
+
+function filtered() {
+  const q = state.q.trim().toLowerCase();
+  let list = state.items.filter((it) => {
+    if (state.category !== "all" && it.category_key !== state.category) return false;
+    if (state.brand && it.brand !== state.brand) return false;
+    if (state.maker && it.maker !== state.maker) return false;
+    if (q) {
+      const hay = `${it.name} ${it.brand} ${it.maker} ${it.category}`.toLowerCase();
+      if (!hay.includes(q)) return false;
+    }
+    return true;
+  });
+
+  const price = (v) => (v == null ? Number.POSITIVE_INFINITY : v);
+  const priceDesc = (v) => (v == null ? -1 : v);
+  switch (state.sort) {
+    case "member_desc":
+      list.sort((a, b) => priceDesc(b.member_price) - priceDesc(a.member_price));
+      break;
+    case "discount_desc":
+      list.sort((a, b) => (b.discount_percent || 0) - (a.discount_percent || 0));
+      break;
+    case "name_asc":
+      list.sort((a, b) => a.name.localeCompare(b.name, "ja"));
+      break;
+    case "brand_asc":
+      list.sort(
+        (a, b) =>
+          (a.brand || "").localeCompare(b.brand || "", "ja") ||
+          a.name.localeCompare(b.name, "ja")
+      );
+      break;
+    default:
+      list.sort((a, b) => price(a.member_price) - price(b.member_price));
+  }
+  return list;
+}
+
+function escapeHtml(s) {
+  return String(s)
+    .replaceAll("&", "&amp;")
+    .replaceAll("<", "&lt;")
+    .replaceAll(">", "&gt;")
+    .replaceAll('"', "&quot;");
+}
+function escapeAttr(s) {
+  return escapeHtml(s).replaceAll("'", "&#39;");
+}
+
+function renderPager(totalFiltered) {
+  const pages = Math.max(1, Math.ceil(totalFiltered / PAGE_SIZE));
+  if (state.page > pages) state.page = pages;
+  if (totalFiltered <= PAGE_SIZE) {
+    els.pager.hidden = true;
+    els.pager.innerHTML = "";
+    return;
+  }
+  els.pager.hidden = false;
+  els.pager.innerHTML = `
+    <button type="button" data-page="prev" ${state.page <= 1 ? "disabled" : ""}>前へ</button>
+    <span class="pageinfo">${state.page} / ${pages} ページ</span>
+    <button type="button" data-page="next" ${state.page >= pages ? "disabled" : ""}>次へ</button>
+  `;
+}
+
+function render() {
+  const list = filtered();
+  els.shown.textContent = String(list.length);
+  els.total.textContent = String(state.items.length);
+
+  if (!list.length) {
+    els.grid.hidden = true;
+    els.pager.hidden = true;
+    els.status.hidden = false;
+    els.status.className = "empty";
+    els.status.textContent = "条件に一致する商品がありません。";
+    return;
+  }
+
+  const start = (state.page - 1) * PAGE_SIZE;
+  const pageItems = list.slice(start, start + PAGE_SIZE);
+
+  els.status.hidden = true;
+  els.grid.hidden = false;
+  els.grid.innerHTML = pageItems
+    .map((it) => {
+      const discount =
+        it.discount_percent != null
+          ? `<span class="badge">${it.discount_percent}% OFF</span>`
+          : "";
+      const listPrice =
+        it.list_price != null ? `<div class="list-price">定価 ${yen(it.list_price)}</div>` : "";
+      const img = it.image
+        ? `<img src="${escapeAttr(it.image)}" alt="${escapeAttr(it.name)}" loading="lazy" referrerpolicy="no-referrer">`
+        : "";
+      return `<article class="card">
+        <a href="${escapeAttr(it.url || "http://r1b.jp/")}" target="_blank" rel="noopener">
+          <div class="card-img">${img}</div>
+          <div class="card-body">
+            <div class="card-top">
+              <div>
+                <div class="brand">${escapeHtml(it.brand || "—")}</div>
+                <div class="maker">${escapeHtml(it.maker ? `取扱: ${it.maker}` : "")}</div>
+              </div>
+              ${discount}
+            </div>
+            <span class="cate-tag">${escapeHtml(it.category)}</span>
+            <h2 class="name">${escapeHtml(it.name)}</h2>
+            <div class="prices">
+              <div class="member"><small>会員価格</small>${yen(it.member_price)}</div>
+              ${listPrice}
+            </div>
+          </div>
+        </a>
+      </article>`;
+    })
+    .join("");
+  renderPager(list.length);
+}
+
+function resetPage() {
+  state.page = 1;
+}
+
+function showToast(msg) {
+  const el = document.getElementById("toast");
+  if (!el) return;
+  el.textContent = msg;
+  el.classList.add("show");
+  clearTimeout(showToast._t);
+  showToast._t = setTimeout(() => el.classList.remove("show"), 2200);
+}
+
+async function shareToLine() {
+  const url = location.href;
+  const text = `ROUND1 プロショップ商品一覧\n${url}`;
+  const lineUrl =
+    "https://social-plugins.line.me/lineit/share?url=" + encodeURIComponent(url);
+
+  if (navigator.share) {
+    try {
+      await navigator.share({ title: "ROUND1 プロショップ商品一覧", text, url });
+      return;
+    } catch (err) {
+      if (err && err.name === "AbortError") return;
+    }
+  }
+
+  const isMobile = /iPhone|iPad|iPod|Android/i.test(navigator.userAgent);
+  if (isMobile) {
+    location.href = lineUrl;
+    return;
+  }
+  try {
+    await navigator.clipboard.writeText(url);
+    showToast("URLをコピーしました。LINEに貼り付けて送れます");
+  } catch {
+    prompt("このURLをLINEに貼り付けてください", url);
+  }
+}
+
+function bind() {
+  const shareBtn = document.getElementById("shareBtn");
+  if (shareBtn) shareBtn.addEventListener("click", shareToLine);
+
+  els.cats.addEventListener("click", (e) => {
+    const btn = e.target.closest("[data-cat]");
+    if (!btn) return;
+    state.category = btn.dataset.cat;
+    resetPage();
+    renderCats();
+    render();
+  });
+  els.q.addEventListener("input", () => {
+    state.q = els.q.value;
+    resetPage();
+    render();
+  });
+  els.brand.addEventListener("change", () => {
+    state.brand = els.brand.value;
+    resetPage();
+    render();
+  });
+  els.maker.addEventListener("change", () => {
+    state.maker = els.maker.value;
+    resetPage();
+    render();
+  });
+  els.sort.addEventListener("change", () => {
+    state.sort = els.sort.value;
+    resetPage();
+    render();
+  });
+  els.reset.addEventListener("click", () => {
+    state.category = "ball";
+    state.q = "";
+    state.brand = "";
+    state.maker = "";
+    state.sort = "member_asc";
+    resetPage();
+    els.q.value = "";
+    els.brand.value = "";
+    els.maker.value = "";
+    els.sort.value = "member_asc";
+    renderCats();
+    render();
+  });
+  els.pager.addEventListener("click", (e) => {
+    const btn = e.target.closest("[data-page]");
+    if (!btn || btn.disabled) return;
+    if (btn.dataset.page === "prev") state.page -= 1;
+    if (btn.dataset.page === "next") state.page += 1;
+    render();
+    window.scrollTo({ top: 0, behavior: "smooth" });
+  });
+}
+
+async function load() {
+  try {
+    const res = await fetch("./goods.json", { cache: "no-store" });
+    if (!res.ok) throw new Error(`goods.json を読めません (${res.status})`);
+    const data = await res.json();
+    state.items = data.items || [];
+    els.fetched.textContent = data.fetched_at
+      ? `取得日時: ${data.fetched_at} ／ 出典: r1b.jp`
+      : "出典: r1b.jp";
+    renderCats();
+    fillFilters();
+    render();
+  } catch (err) {
+    els.status.className = "error";
+    els.status.innerHTML =
+      `読み込みに失敗しました。<br>先に <code>python fetch_goods.py</code> を実行して <code>goods.json</code> を作成してください。<br><small>${escapeHtml(err.message)}</small>`;
+  }
+}
+
+bind();
+load();
+</script>
+</body>
+</html>
