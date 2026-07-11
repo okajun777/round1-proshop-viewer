@@ -465,6 +465,20 @@ function yen(n) {
   return "¥" + Number(n).toLocaleString("ja-JP");
 }
 
+/** GitHub Pages(HTTPS) から r1b.jp(HTTP) 画像を表示するためのプロキシ */
+function imageUrl(url) {
+  if (!url) return "";
+  if (location.protocol === "https:" && /^http:\/\//i.test(url)) {
+    const bare = url.replace(/^https?:\/\//i, "");
+    return (
+      "https://wsrv.nl/?url=" +
+      encodeURIComponent(bare) +
+      "&w=480&fit=contain&we"
+    );
+  }
+  return url;
+}
+
 function categoryCounts(items) {
   const counts = { all: items.length };
   for (const it of items) {
@@ -594,7 +608,7 @@ function render() {
       const listPrice =
         it.list_price != null ? `<div class="list-price">定価 ${yen(it.list_price)}</div>` : "";
       const img = it.image
-        ? `<img src="${escapeAttr(it.image)}" alt="${escapeAttr(it.name)}" loading="lazy" referrerpolicy="no-referrer">`
+        ? `<img src="${escapeAttr(imageUrl(it.image))}" alt="${escapeAttr(it.name)}" loading="lazy" referrerpolicy="no-referrer" decoding="async">`
         : "";
       return `<article class="card">
         <a href="${escapeAttr(it.url || "http://r1b.jp/")}" target="_blank" rel="noopener">
