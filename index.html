@@ -70,6 +70,29 @@
     white-space:nowrap;
   }
   .share-btn:active{background:rgba(255,255,255,.22);}
+  .header-actions{
+    display:flex;
+    flex-direction:column;
+    align-items:stretch;
+    gap:8px;
+    flex-shrink:0;
+  }
+  .back-app-btn{
+    display:inline-flex;
+    align-items:center;
+    justify-content:center;
+    border:1px solid rgba(255,255,255,.55);
+    background:#fff;
+    color:#8b0a1e;
+    border-radius:999px;
+    padding:8px 12px;
+    font-size:0.78rem;
+    font-weight:800;
+    font-family:inherit;
+    text-decoration:none;
+    white-space:nowrap;
+  }
+  .back-app-btn:hover{ background:#fff5f5; }
   .toast{
     position:fixed;
     left:50%;
@@ -375,7 +398,13 @@
         の取扱商品をカテゴリ別に表示・検索できます。価格は税込・店舗取扱要確認。
       </p>
     </div>
-    <button type="button" class="share-btn" id="shareBtn">LINEで共有</button>
+    <div class="header-actions">
+      <a
+        class="back-app-btn"
+        href="https://okajun777.github.io/ball-manager/"
+      >← Ball Managerに戻る</a>
+      <button type="button" class="share-btn" id="shareBtn">LINEで共有</button>
+    </div>
   </div>
 </header>
 <div class="toast" id="toast" role="status"></div>
