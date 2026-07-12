@@ -1,0 +1,577 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<meta name="theme-color" content="#c8102e">
+<meta name="description" content="ラウンドワン全国店舗のボウリング混雑・待ち時間を一覧表示">
+<meta property="og:title" content="ROUND1 ボウリング混雑一覧">
+<meta property="og:description" content="全国店舗の待ち時間・待ち組数をまとめて確認">
+<meta property="og:type" content="website">
+<title>ROUND1 ボウリング混雑一覧</title>
+<style>
+  :root{
+    --bg:#f3f4f6;
+    --panel:#ffffff;
+    --ink:#1a1a1a;
+    --sub:#6b7280;
+    --line:#e5e7eb;
+    --accent:#c8102e;
+    --accent-soft:#fde8eb;
+    --accent-dark:#9a0c22;
+    --ok:#059669;
+    --ok-bg:#ecfdf5;
+    --mid:#d97706;
+    --mid-bg:#fffbeb;
+    --busy:#dc2626;
+    --busy-bg:#fef2f2;
+    --off:#6b7280;
+    --off-bg:#f3f4f6;
+    --star:#f59e0b;
+  }
+  *{box-sizing:border-box;}
+  body{
+    margin:0;
+    font-family:"Meiryo UI","Hiragino Kaku Gothic ProN","Hiragino Sans","Noto Sans JP",sans-serif;
+    background:var(--bg);
+    color:var(--ink);
+  }
+  header{
+    background:linear-gradient(135deg,#c8102e,#8b0a1e);
+    color:#fff;
+    padding:14px 20px;
+    padding-top:calc(14px + env(safe-area-inset-top));
+  }
+  .header-row{
+    display:flex;
+    justify-content:space-between;
+    align-items:flex-start;
+    gap:12px;
+  }
+  header h1{
+    margin:0 0 4px;
+    font-size:1.15rem;
+    letter-spacing:.02em;
+  }
+  header p{
+    margin:0;
+    color:#ffd6dc;
+    font-size:0.78rem;
+    line-height:1.45;
+  }
+  header a{color:#fff;}
+  .header-actions{
+    display:flex;
+    flex-direction:column;
+    align-items:stretch;
+    gap:8px;
+    flex-shrink:0;
+  }
+  .nav-btn{
+    display:inline-flex;
+    align-items:center;
+    justify-content:center;
+    border:1px solid rgba(255,255,255,.55);
+    background:#fff;
+    color:#8b0a1e;
+    border-radius:999px;
+    padding:8px 12px;
+    font-size:0.78rem;
+    font-weight:800;
+    font-family:inherit;
+    text-decoration:none;
+    white-space:nowrap;
+    cursor:pointer;
+  }
+  .nav-btn.ghost{
+    background:rgba(255,255,255,.12);
+    color:#fff;
+    border-color:rgba(255,255,255,.45);
+  }
+  .layout{max-width:920px; margin:0 auto; padding:14px 14px 40px;}
+  .summary{
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+    gap:8px;
+    margin-bottom:12px;
+  }
+  .summary-item{
+    background:var(--panel);
+    border:1px solid var(--line);
+    border-radius:10px;
+    padding:10px 12px;
+    text-align:center;
+  }
+  .summary-item .num{
+    font-size:1.35rem;
+    font-weight:800;
+    line-height:1.1;
+  }
+  .summary-item .label{
+    margin-top:2px;
+    font-size:0.7rem;
+    color:var(--sub);
+  }
+  .summary-item.waiting .num{color:var(--busy);}
+  .summary-item.free .num{color:var(--ok);}
+  .toolbar{
+    background:var(--panel);
+    border:1px solid var(--line);
+    border-radius:12px;
+    padding:12px;
+    margin-bottom:12px;
+    position:sticky;
+    top:0;
+    z-index:5;
+  }
+  .toolbar-row{
+    display:flex;
+    flex-wrap:wrap;
+    gap:8px;
+    align-items:center;
+  }
+  .toolbar-row + .toolbar-row{margin-top:8px;}
+  input[type="search"], select{
+    border:1px solid var(--line);
+    border-radius:8px;
+    padding:8px 10px;
+    font:inherit;
+    font-size:0.9rem;
+    background:#fff;
+    color:var(--ink);
+  }
+  input[type="search"]{flex:1; min-width:160px;}
+  select{min-width:120px;}
+  .chips{display:flex; flex-wrap:wrap; gap:6px;}
+  .chip{
+    border:1px solid var(--line);
+    background:#fff;
+    color:var(--ink);
+    border-radius:999px;
+    padding:6px 10px;
+    font-size:0.75rem;
+    font-weight:700;
+    font-family:inherit;
+    cursor:pointer;
+  }
+  .chip.active{
+    background:var(--accent);
+    border-color:var(--accent);
+    color:#fff;
+  }
+  .meta{
+    margin:0 0 10px;
+    color:var(--sub);
+    font-size:0.78rem;
+  }
+  .list{display:flex; flex-direction:column; gap:8px;}
+  .store{
+    display:grid;
+    grid-template-columns:auto 1fr auto;
+    gap:10px;
+    align-items:center;
+    background:var(--panel);
+    border:1px solid var(--line);
+    border-radius:12px;
+    padding:12px;
+    text-decoration:none;
+    color:inherit;
+  }
+  .store:hover{border-color:#c4c4c4;}
+  .fav{
+    border:0;
+    background:transparent;
+    color:#d1d5db;
+    font-size:1.25rem;
+    line-height:1;
+    cursor:pointer;
+    padding:2px 4px;
+    font-family:inherit;
+  }
+  .fav.on{color:var(--star);}
+  .store-main{min-width:0;}
+  .store-name{
+    font-weight:800;
+    font-size:0.98rem;
+    margin:0 0 2px;
+  }
+  .store-sub{
+    margin:0;
+    color:var(--sub);
+    font-size:0.72rem;
+  }
+  .wait-box{
+    text-align:right;
+    min-width:88px;
+  }
+  .wait-time{
+    font-size:1.25rem;
+    font-weight:900;
+    line-height:1.1;
+  }
+  .wait-sub{
+    margin-top:2px;
+    font-size:0.7rem;
+    color:var(--sub);
+  }
+  .badge{
+    display:inline-block;
+    border-radius:6px;
+    padding:2px 6px;
+    font-size:0.65rem;
+    font-weight:800;
+    margin-bottom:4px;
+  }
+  .lvl-free .wait-time{color:var(--ok);}
+  .lvl-free .badge{background:var(--ok-bg); color:var(--ok);}
+  .lvl-light .wait-time{color:var(--mid);}
+  .lvl-light .badge{background:var(--mid-bg); color:var(--mid);}
+  .lvl-busy .wait-time{color:var(--busy);}
+  .lvl-busy .badge{background:var(--busy-bg); color:var(--busy);}
+  .lvl-off .wait-time{color:var(--off); font-size:0.95rem;}
+  .lvl-off .badge{background:var(--off-bg); color:var(--off);}
+  .empty{
+    background:var(--panel);
+    border:1px dashed var(--line);
+    border-radius:12px;
+    padding:28px 16px;
+    text-align:center;
+    color:var(--sub);
+  }
+  .error{
+    background:var(--busy-bg);
+    color:#991b1b;
+    border:1px solid #fecaca;
+    border-radius:12px;
+    padding:16px;
+  }
+  footer{
+    max-width:920px;
+    margin:0 auto;
+    padding:0 14px 28px;
+    color:var(--sub);
+    font-size:0.72rem;
+    line-height:1.5;
+  }
+  footer a{color:var(--accent-dark);}
+  @media (max-width:560px){
+    header{padding:12px 14px; padding-top:calc(12px + env(safe-area-inset-top));}
+    header h1{font-size:1.02rem;}
+    .summary{grid-template-columns:repeat(3,1fr); gap:6px;}
+    .summary-item{padding:8px 6px;}
+    .summary-item .num{font-size:1.15rem;}
+    .wait-box{min-width:76px;}
+    .wait-time{font-size:1.1rem;}
+  }
+</style>
+</head>
+<body>
+<header>
+  <div class="header-row">
+    <div>
+      <h1>ROUND1 ボウリング混雑一覧</h1>
+      <p>全国店舗の待ち時間・待ち組数をまとめて確認。データは公式予約サイトの混雑状況です。</p>
+    </div>
+    <div class="header-actions">
+      <a class="nav-btn" href="./index.html">プロショップ一覧</a>
+      <button type="button" class="nav-btn ghost" id="shareBtn">LINEで共有</button>
+    </div>
+  </div>
+</header>
+
+<div class="layout">
+  <div class="summary" id="summary" hidden>
+    <div class="summary-item waiting">
+      <div class="num" id="sumWaiting">-</div>
+      <div class="label">待ちあり</div>
+    </div>
+    <div class="summary-item free">
+      <div class="num" id="sumFree">-</div>
+      <div class="label">待ちなし</div>
+    </div>
+    <div class="summary-item">
+      <div class="num" id="sumClosed">-</div>
+      <div class="label">受付外など</div>
+    </div>
+  </div>
+
+  <div class="toolbar">
+    <div class="toolbar-row">
+      <input type="search" id="q" placeholder="店舗名・都道府県で検索" autocomplete="off">
+      <select id="sort">
+        <option value="wait_desc">待ち時間が長い順</option>
+        <option value="wait_asc">待ち時間が短い順</option>
+        <option value="name">店舗名順</option>
+        <option value="region">地区順</option>
+      </select>
+    </div>
+    <div class="toolbar-row chips" id="statusChips">
+      <button type="button" class="chip active" data-status="all">すべて</button>
+      <button type="button" class="chip" data-status="fav">★お気に入り</button>
+      <button type="button" class="chip" data-status="waiting">待ちあり</button>
+      <button type="button" class="chip" data-status="free">待ちなし</button>
+      <button type="button" class="chip" data-status="closed">受付外</button>
+    </div>
+    <div class="toolbar-row chips" id="regionChips"></div>
+  </div>
+
+  <p class="meta" id="meta">読み込み中…</p>
+  <div id="list" class="list"></div>
+</div>
+
+<footer>
+  待ち時間は公式サイト掲載の目安です。状況により前後します。<br>
+  出典: <a href="https://www.round1.co.jp/yoyaku/queue/select_store/?target=1" target="_blank" rel="noopener">ラウンドワン 施設予約（混雑状況）</a>
+  ／ 各店舗名をタップすると公式の順番待ちページへ移動します。
+</footer>
+
+<script>
+const FAV_KEY = "round1-queue-favorites";
+const STATUS_KEY = "round1-queue-status";
+const SORT_KEY = "round1-queue-sort";
+const REGION_KEY = "round1-queue-region";
+
+let data = null;
+let statusFilter = localStorage.getItem(STATUS_KEY) || "all";
+let sortMode = localStorage.getItem(SORT_KEY) || "wait_desc";
+let regionFilter = localStorage.getItem(REGION_KEY) || "all";
+let favorites = new Set(JSON.parse(localStorage.getItem(FAV_KEY) || "[]"));
+
+const $ = (id) => document.getElementById(id);
+
+function escapeHtml(s) {
+  return String(s)
+    .replaceAll("&", "&amp;")
+    .replaceAll("<", "&lt;")
+    .replaceAll(">", "&gt;")
+    .replaceAll('"', "&quot;");
+}
+
+function saveFavs() {
+  localStorage.setItem(FAV_KEY, JSON.stringify([...favorites]));
+}
+
+function levelOf(store) {
+  if (!store.ok || store.available === false) return "off";
+  const t = store.wait_time;
+  if (t == null) return "off";
+  if (t <= 0) return "free";
+  if (t < 30) return "light";
+  return "busy";
+}
+
+function waitLabel(store) {
+  const lvl = levelOf(store);
+  if (lvl === "off") {
+    return {
+      badge: "受付外",
+      time: "—",
+      sub: store.detail ? String(store.detail).replace(/<[^>]+>/g, "") : "ご利用できません",
+    };
+  }
+  if (lvl === "free") {
+    return { badge: "空き", time: "0分", sub: "待ちなし" };
+  }
+  const groups = store.wait_group_num != null ? `${store.wait_group_num}組` : "";
+  return {
+    badge: lvl === "busy" ? "混雑" : "やや混雑",
+    time: `${store.wait_time}分`,
+    sub: groups ? `待ち ${groups}` : "待ちあり",
+  };
+}
+
+function filteredStores() {
+  const q = $("q").value.trim().toLowerCase();
+  let rows = data.stores.slice();
+
+  if (regionFilter !== "all") {
+    rows = rows.filter((s) => s.region === regionFilter);
+  }
+  if (statusFilter === "fav") {
+    rows = rows.filter((s) => favorites.has(s.id));
+  } else if (statusFilter === "waiting") {
+    rows = rows.filter((s) => levelOf(s) === "light" || levelOf(s) === "busy");
+  } else if (statusFilter === "free") {
+    rows = rows.filter((s) => levelOf(s) === "free");
+  } else if (statusFilter === "closed") {
+    rows = rows.filter((s) => levelOf(s) === "off");
+  }
+  if (q) {
+    rows = rows.filter((s) =>
+      `${s.name} ${s.prefecture} ${s.region}`.toLowerCase().includes(q)
+    );
+  }
+
+  const waitVal = (s) => {
+    if (!s.available) return -1;
+    return typeof s.wait_time === "number" ? s.wait_time : -1;
+  };
+
+  rows.sort((a, b) => {
+    const af = favorites.has(a.id) ? 1 : 0;
+    const bf = favorites.has(b.id) ? 1 : 0;
+    if (statusFilter !== "fav" && bf !== af) return bf - af;
+
+    if (sortMode === "name") return a.name.localeCompare(b.name, "ja");
+    if (sortMode === "region") {
+      const r = a.region.localeCompare(b.region, "ja") || a.prefecture.localeCompare(b.prefecture, "ja");
+      return r || a.name.localeCompare(b.name, "ja");
+    }
+    if (sortMode === "wait_asc") {
+      const av = waitVal(a);
+      const bv = waitVal(b);
+      if (av < 0 && bv >= 0) return 1;
+      if (bv < 0 && av >= 0) return -1;
+      return av - bv || a.name.localeCompare(b.name, "ja");
+    }
+    // wait_desc
+    const av = waitVal(a);
+    const bv = waitVal(b);
+    if (av < 0 && bv >= 0) return 1;
+    if (bv < 0 && av >= 0) return -1;
+    return bv - av || a.name.localeCompare(b.name, "ja");
+  });
+
+  return rows;
+}
+
+function renderSummary() {
+  const stores = data.stores;
+  let waiting = 0, free = 0, closed = 0;
+  for (const s of stores) {
+    const lvl = levelOf(s);
+    if (lvl === "free") free++;
+    else if (lvl === "off") closed++;
+    else waiting++;
+  }
+  $("sumWaiting").textContent = waiting;
+  $("sumFree").textContent = free;
+  $("sumClosed").textContent = closed;
+  $("summary").hidden = false;
+}
+
+function renderRegionChips() {
+  const regions = [...new Set(data.stores.map((s) => s.region))];
+  const box = $("regionChips");
+  box.innerHTML =
+    `<button type="button" class="chip${regionFilter === "all" ? " active" : ""}" data-region="all">全地区</button>` +
+    regions
+      .map(
+        (r) =>
+          `<button type="button" class="chip${regionFilter === r ? " active" : ""}" data-region="${escapeHtml(r)}">${escapeHtml(r.replace(/地区$/, ""))}</button>`
+      )
+      .join("");
+}
+
+function renderList() {
+  const rows = filteredStores();
+  $("meta").textContent =
+    `更新: ${data.updated_at_display} ／ 表示 ${rows.length} / ${data.store_count} 店舗` +
+    (data.waiting_count != null ? ` ／ 全国待ちあり ${data.waiting_count}` : "");
+
+  if (!rows.length) {
+    $("list").innerHTML = `<div class="empty">該当する店舗がありません</div>`;
+    return;
+  }
+
+  $("list").innerHTML = rows
+    .map((s) => {
+      const lvl = levelOf(s);
+      const label = waitLabel(s);
+      const favOn = favorites.has(s.id);
+      return `
+      <div class="store lvl-${lvl}">
+        <button type="button" class="fav${favOn ? " on" : ""}" data-fav="${escapeHtml(s.id)}" aria-label="お気に入り">${favOn ? "★" : "☆"}</button>
+        <a class="store-main" href="${escapeHtml(s.queue_url)}" target="_blank" rel="noopener">
+          <p class="store-name">${escapeHtml(s.name)}</p>
+          <p class="store-sub">${escapeHtml(s.region)} ／ ${escapeHtml(s.prefecture)}${s.update_time ? ` ／ 公式更新 ${escapeHtml(s.update_time)}` : ""}</p>
+        </a>
+        <a class="wait-box" href="${escapeHtml(s.queue_url)}" target="_blank" rel="noopener">
+          <div class="badge">${escapeHtml(label.badge)}</div>
+          <div class="wait-time">${escapeHtml(label.time)}</div>
+          <div class="wait-sub">${escapeHtml(label.sub)}</div>
+        </a>
+      </div>`;
+    })
+    .join("");
+}
+
+function renderAll() {
+  renderSummary();
+  renderRegionChips();
+  renderList();
+}
+
+function syncChipActive() {
+  document.querySelectorAll("#statusChips .chip").forEach((btn) => {
+    btn.classList.toggle("active", btn.dataset.status === statusFilter);
+  });
+}
+
+async function shareToLine() {
+  const url = location.href;
+  const text = "ROUND1 ボウリング混雑一覧";
+  if (navigator.share) {
+    try {
+      await navigator.share({ title: text, text, url });
+      return;
+    } catch (_) {}
+  }
+  const line =
+    "https://social-plugins.line.me/lineit/share?url=" + encodeURIComponent(url);
+  window.open(line, "_blank", "noopener");
+}
+
+async function load() {
+  try {
+    const res = await fetch("./queue.json", { cache: "no-store" });
+    if (!res.ok) throw new Error(`queue.json を読めません (${res.status})`);
+    data = await res.json();
+    $("sort").value = sortMode;
+    syncChipActive();
+    renderAll();
+  } catch (err) {
+    $("meta").textContent = "";
+    $("list").innerHTML =
+      `<div class="error">読み込みに失敗しました。<br>先に <code>python fetch_queue.py</code> を実行して <code>queue.json</code> を作成してください。<br><small>${escapeHtml(err.message)}</small></div>`;
+  }
+}
+
+$("q").addEventListener("input", renderList);
+$("sort").addEventListener("change", () => {
+  sortMode = $("sort").value;
+  localStorage.setItem(SORT_KEY, sortMode);
+  renderList();
+});
+$("statusChips").addEventListener("click", (e) => {
+  const btn = e.target.closest(".chip");
+  if (!btn) return;
+  statusFilter = btn.dataset.status;
+  localStorage.setItem(STATUS_KEY, statusFilter);
+  syncChipActive();
+  renderList();
+});
+$("regionChips").addEventListener("click", (e) => {
+  const btn = e.target.closest(".chip");
+  if (!btn) return;
+  regionFilter = btn.dataset.region;
+  localStorage.setItem(REGION_KEY, regionFilter);
+  renderRegionChips();
+  renderList();
+});
+$("list").addEventListener("click", (e) => {
+  const btn = e.target.closest("[data-fav]");
+  if (!btn) return;
+  e.preventDefault();
+  const id = btn.dataset.fav;
+  if (favorites.has(id)) favorites.delete(id);
+  else favorites.add(id);
+  saveFavs();
+  renderList();
+});
+$("shareBtn").addEventListener("click", shareToLine);
+
+load();
+</script>
+</body>
+</html>

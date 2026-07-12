@@ -7,6 +7,8 @@ __pycache__/
 # 作業用一時ファイル
 _*.txt
 _*.html
+_*.json
+_*.js
 *.log
 
 # OS / エディタ
