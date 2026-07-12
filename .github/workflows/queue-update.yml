@@ -2,8 +2,8 @@ name: Queue status update
 
 on:
   schedule:
-    # 15分ごと（JST 10:00–24:00 ≒ UTC 01:00–15:00）
-    - cron: "*/15 1-15 * * *"
+    # 5分ごと（JST 10:00–24:00 ≒ UTC 01:00–15:00）
+    - cron: "*/5 1-15 * * *"
   workflow_dispatch:
 
 permissions:

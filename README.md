@@ -26,7 +26,7 @@ python -m http.server 8791
 
 または `update_queue.bat` を実行。
 
-GitHub Actions が **15分ごと（日本時間 10:00〜24:00頃）** に再取得し、`queue.json` を更新します。
+GitHub Actions が **5分ごと（日本時間 10:00〜24:00頃）** に再取得し、`queue.json` を更新します。
 
 - 手動実行: GitHub の Actions タブ → **Queue status update** → **Run workflow**
 - 店舗名の ★ でお気に入り固定（端末に保存）
