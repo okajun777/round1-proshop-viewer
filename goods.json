@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-07-12T21:58:44+00:00",
+  "fetched_at": "2026-07-13T22:02:50+00:00",
   "source": "http://r1b.jp",
   "categories": [
     {
@@ -2711,22 +2711,6 @@
       "url": "http://r1b.jp/item.php?prc=detail&cmd=confirm&sid=4072|7052"
     },
     {
-      "id": "5225|8832",
-      "name": "SST X",
-      "brand": "Dexter",
-      "brand_id": 6,
-      "maker": "サンブリッジ",
-      "maker_id": 1,
-      "category_id": 2,
-      "category": "シューズ",
-      "category_key": "shoes",
-      "image": "http://r1b.jp/img/image/item/pro_item_202607071149311664802079.jpg",
-      "member_price": 31350,
-      "list_price": 55000,
-      "discount_percent": 43,
-      "url": "http://r1b.jp/item.php?prc=detail&cmd=confirm&sid=5225|8832"
-    },
-    {
       "id": "5226|8833",
       "name": "SST X",
       "brand": "Dexter",
@@ -2741,6 +2725,22 @@
       "list_price": 55000,
       "discount_percent": 43,
       "url": "http://r1b.jp/item.php?prc=detail&cmd=confirm&sid=5226|8833"
+    },
+    {
+      "id": "5225|8832",
+      "name": "SST X",
+      "brand": "Dexter",
+      "brand_id": 6,
+      "maker": "サンブリッジ",
+      "maker_id": 1,
+      "category_id": 2,
+      "category": "シューズ",
+      "category_key": "shoes",
+      "image": "http://r1b.jp/img/image/item/pro_item_202607071149311664802079.jpg",
+      "member_price": 31350,
+      "list_price": 55000,
+      "discount_percent": 43,
+      "url": "http://r1b.jp/item.php?prc=detail&cmd=confirm&sid=5225|8832"
     },
     {
       "id": "5057|8546",
@@ -13559,22 +13559,6 @@
       "url": "http://r1b.jp/item.php?prc=detail&cmd=confirm&sid=4188|7226"
     },
     {
-      "id": "4189|7229",
-      "name": "BP048",
-      "brand": "B+",
-      "brand_id": 7,
-      "maker": "サンブリッジ",
-      "maker_id": 1,
-      "category_id": 4,
-      "category": "ウェア",
-      "category_key": "ware",
-      "image": "http://r1b.jp/img/image/item/pro_item_20231102080725380136791.jpg",
-      "member_price": 9867,
-      "list_price": 15180,
-      "discount_percent": 35,
-      "url": "http://r1b.jp/item.php?prc=detail&cmd=confirm&sid=4189|7229"
-    },
-    {
       "id": "3557|6224",
       "name": "BP048",
       "brand": "B+",
@@ -13589,6 +13573,22 @@
       "list_price": 15180,
       "discount_percent": 35,
       "url": "http://r1b.jp/item.php?prc=detail&cmd=confirm&sid=3557|6224"
+    },
+    {
+      "id": "4189|7229",
+      "name": "BP048",
+      "brand": "B+",
+      "brand_id": 7,
+      "maker": "サンブリッジ",
+      "maker_id": 1,
+      "category_id": 4,
+      "category": "ウェア",
+      "category_key": "ware",
+      "image": "http://r1b.jp/img/image/item/pro_item_20231102080725380136791.jpg",
+      "member_price": 9867,
+      "list_price": 15180,
+      "discount_percent": 35,
+      "url": "http://r1b.jp/item.php?prc=detail&cmd=confirm&sid=4189|7229"
     },
     {
       "id": "3845|6662",
