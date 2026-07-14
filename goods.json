@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-07-13T22:02:50+00:00",
+  "fetched_at": "2026-07-14T22:04:02+00:00",
   "source": "http://r1b.jp",
   "categories": [
     {
@@ -2887,22 +2887,6 @@
       "url": "http://r1b.jp/item.php?prc=detail&cmd=confirm&sid=5058|8547"
     },
     {
-      "id": "4870|8298",
-      "name": "SST8・パワーフレーム・BOA",
-      "brand": "Dexter",
-      "brand_id": 6,
-      "maker": "サンブリッジ",
-      "maker_id": 1,
-      "category_id": 2,
-      "category": "シューズ",
-      "category_key": "shoes",
-      "image": "http://r1b.jp/img/image/item/pro_item_20260707121624318247796.jpg",
-      "member_price": 28842,
-      "list_price": 50600,
-      "discount_percent": 43,
-      "url": "http://r1b.jp/item.php?prc=detail&cmd=confirm&sid=4870|8298"
-    },
-    {
       "id": "4943|8392",
       "name": "SST8・パワーフレーム・BOA",
       "brand": "Dexter",
@@ -2917,6 +2901,22 @@
       "list_price": 50600,
       "discount_percent": 43,
       "url": "http://r1b.jp/item.php?prc=detail&cmd=confirm&sid=4943|8392"
+    },
+    {
+      "id": "4870|8298",
+      "name": "SST8・パワーフレーム・BOA",
+      "brand": "Dexter",
+      "brand_id": 6,
+      "maker": "サンブリッジ",
+      "maker_id": 1,
+      "category_id": 2,
+      "category": "シューズ",
+      "category_key": "shoes",
+      "image": "http://r1b.jp/img/image/item/pro_item_20260707121624318247796.jpg",
+      "member_price": 28842,
+      "list_price": 50600,
+      "discount_percent": 43,
+      "url": "http://r1b.jp/item.php?prc=detail&cmd=confirm&sid=4870|8298"
     },
     {
       "id": "4460|7704",
