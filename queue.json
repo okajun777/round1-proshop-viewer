@@ -1,11 +1,11 @@
 {
-  "updated_at": "2026-07-15T00:09:52.101828+09:00",
-  "updated_at_display": "2026-07-15 00:09",
+  "updated_at": "2026-07-15T01:39:12.448615+09:00",
+  "updated_at_display": "2026-07-15 01:39",
   "source": "https://www.round1.co.jp/yoyaku/queue/has_no_wait.php",
   "service": "bowling",
   "store_count": 98,
-  "waiting_count": 9,
-  "elapsed_sec": 11.04,
+  "waiting_count": 7,
+  "elapsed_sec": 10.32,
   "stores": [
     {
       "id": "2091",
@@ -48,7 +48,7 @@
       "wait_time": 0,
       "wait_group_num": 0,
       "update_date": "2026年07月14日(火)",
-      "update_time": "24:08",
+      "update_time": "25:36",
       "detail": null,
       "queue_url": "https://www.round1.co.jp/yoyaku/queue/bowling/index.php?service_department_id=1&store_id=2093"
     },
@@ -63,7 +63,7 @@
       "wait_time": 0,
       "wait_group_num": 0,
       "update_date": "2026年07月14日(火)",
-      "update_time": "24:09",
+      "update_time": "25:37",
       "detail": null,
       "queue_url": "https://www.round1.co.jp/yoyaku/queue/bowling/index.php?service_department_id=1&store_id=2094"
     },
@@ -78,7 +78,7 @@
       "wait_time": 0,
       "wait_group_num": 0,
       "update_date": "2026年07月14日(火)",
-      "update_time": "24:08",
+      "update_time": "25:37",
       "detail": null,
       "queue_url": "https://www.round1.co.jp/yoyaku/queue/bowling/index.php?service_department_id=1&store_id=2117"
     },
@@ -108,7 +108,7 @@
       "wait_time": 0,
       "wait_group_num": 0,
       "update_date": "2026年07月14日(火)",
-      "update_time": "24:08",
+      "update_time": "25:38",
       "detail": null,
       "queue_url": "https://www.round1.co.jp/yoyaku/queue/bowling/index.php?service_department_id=1&store_id=2088"
     },
@@ -123,7 +123,7 @@
       "wait_time": 0,
       "wait_group_num": 0,
       "update_date": "2026年07月14日(火)",
-      "update_time": "24:09",
+      "update_time": "25:38",
       "detail": null,
       "queue_url": "https://www.round1.co.jp/yoyaku/queue/bowling/index.php?service_department_id=1&store_id=2090"
     },
@@ -138,7 +138,7 @@
       "wait_time": 0,
       "wait_group_num": 0,
       "update_date": "2026年07月14日(火)",
-      "update_time": "24:07",
+      "update_time": "25:38",
       "detail": null,
       "queue_url": "https://www.round1.co.jp/yoyaku/queue/bowling/index.php?service_department_id=1&store_id=2126"
     },
@@ -153,7 +153,7 @@
       "wait_time": 0,
       "wait_group_num": 0,
       "update_date": "2026年07月14日(火)",
-      "update_time": "24:07",
+      "update_time": "25:37",
       "detail": null,
       "queue_url": "https://www.round1.co.jp/yoyaku/queue/bowling/index.php?service_department_id=1&store_id=2087"
     },
@@ -168,7 +168,7 @@
       "wait_time": 0,
       "wait_group_num": 0,
       "update_date": "2026年07月14日(火)",
-      "update_time": "24:07",
+      "update_time": "25:37",
       "detail": null,
       "queue_url": "https://www.round1.co.jp/yoyaku/queue/bowling/index.php?service_department_id=1&store_id=2085"
     },
@@ -183,7 +183,7 @@
       "wait_time": 0,
       "wait_group_num": 0,
       "update_date": "2026年07月14日(火)",
-      "update_time": "24:09",
+      "update_time": "25:37",
       "detail": null,
       "queue_url": "https://www.round1.co.jp/yoyaku/queue/bowling/index.php?service_department_id=1&store_id=2086"
     },
@@ -198,7 +198,7 @@
       "wait_time": 0,
       "wait_group_num": 0,
       "update_date": "2026年07月14日(火)",
-      "update_time": "24:09",
+      "update_time": "25:36",
       "detail": null,
       "queue_url": "https://www.round1.co.jp/yoyaku/queue/bowling/index.php?service_department_id=1&store_id=2079"
     },
@@ -213,7 +213,7 @@
       "wait_time": 0,
       "wait_group_num": 0,
       "update_date": "2026年07月14日(火)",
-      "update_time": "24:09",
+      "update_time": "25:37",
       "detail": null,
       "queue_url": "https://www.round1.co.jp/yoyaku/queue/bowling/index.php?service_department_id=1&store_id=2084"
     },
@@ -228,7 +228,7 @@
       "wait_time": 0,
       "wait_group_num": 0,
       "update_date": "2026年07月14日(火)",
-      "update_time": "24:08",
+      "update_time": "25:38",
       "detail": null,
       "queue_url": "https://www.round1.co.jp/yoyaku/queue/bowling/index.php?service_department_id=1&store_id=2080"
     },
@@ -243,7 +243,7 @@
       "wait_time": 0,
       "wait_group_num": 0,
       "update_date": "2026年07月14日(火)",
-      "update_time": "24:08",
+      "update_time": "25:38",
       "detail": null,
       "queue_url": "https://www.round1.co.jp/yoyaku/queue/bowling/index.php?service_department_id=1&store_id=2063"
     },
@@ -258,7 +258,7 @@
       "wait_time": 0,
       "wait_group_num": 0,
       "update_date": "2026年07月14日(火)",
-      "update_time": "24:08",
+      "update_time": "25:36",
       "detail": null,
       "queue_url": "https://www.round1.co.jp/yoyaku/queue/bowling/index.php?service_department_id=1&store_id=2066"
     },
@@ -273,7 +273,7 @@
       "wait_time": 0,
       "wait_group_num": 0,
       "update_date": "2026年07月14日(火)",
-      "update_time": "24:09",
+      "update_time": "25:39",
       "detail": null,
       "queue_url": "https://www.round1.co.jp/yoyaku/queue/bowling/index.php?service_department_id=1&store_id=2053"
     },
@@ -288,7 +288,7 @@
       "wait_time": 0,
       "wait_group_num": 0,
       "update_date": "2026年07月14日(火)",
-      "update_time": "24:08",
+      "update_time": "25:38",
       "detail": null,
       "queue_url": "https://www.round1.co.jp/yoyaku/queue/bowling/index.php?service_department_id=1&store_id=2054"
     },
@@ -303,7 +303,7 @@
       "wait_time": 0,
       "wait_group_num": 0,
       "update_date": "2026年07月14日(火)",
-      "update_time": "24:08",
+      "update_time": "25:38",
       "detail": null,
       "queue_url": "https://www.round1.co.jp/yoyaku/queue/bowling/index.php?service_department_id=1&store_id=2055"
     },
@@ -318,7 +318,7 @@
       "wait_time": 0,
       "wait_group_num": 0,
       "update_date": "2026年07月14日(火)",
-      "update_time": "24:04",
+      "update_time": "25:35",
       "detail": null,
       "queue_url": "https://www.round1.co.jp/yoyaku/queue/bowling/index.php?service_department_id=1&store_id=2056"
     },
@@ -333,7 +333,7 @@
       "wait_time": 0,
       "wait_group_num": 0,
       "update_date": "2026年07月14日(火)",
-      "update_time": "24:09",
+      "update_time": "25:33",
       "detail": null,
       "queue_url": "https://www.round1.co.jp/yoyaku/queue/bowling/index.php?service_department_id=1&store_id=2057"
     },
@@ -348,7 +348,7 @@
       "wait_time": 0,
       "wait_group_num": 0,
       "update_date": "2026年07月14日(火)",
-      "update_time": "24:09",
+      "update_time": "25:36",
       "detail": null,
       "queue_url": "https://www.round1.co.jp/yoyaku/queue/bowling/index.php?service_department_id=1&store_id=2058"
     },
@@ -363,7 +363,7 @@
       "wait_time": 0,
       "wait_group_num": 0,
       "update_date": "2026年07月14日(火)",
-      "update_time": "24:09",
+      "update_time": "25:37",
       "detail": null,
       "queue_url": "https://www.round1.co.jp/yoyaku/queue/bowling/index.php?service_department_id=1&store_id=2059"
     },
@@ -378,7 +378,7 @@
       "wait_time": 0,
       "wait_group_num": 0,
       "update_date": "2026年07月14日(火)",
-      "update_time": "24:08",
+      "update_time": "25:38",
       "detail": null,
       "queue_url": "https://www.round1.co.jp/yoyaku/queue/bowling/index.php?service_department_id=1&store_id=2060"
     },
@@ -408,7 +408,7 @@
       "wait_time": 17,
       "wait_group_num": 2,
       "update_date": "2026年07月14日(火)",
-      "update_time": "24:09",
+      "update_time": "25:34",
       "detail": null,
       "queue_url": "https://www.round1.co.jp/yoyaku/queue/bowling/index.php?service_department_id=1&store_id=2114"
     },
@@ -423,7 +423,7 @@
       "wait_time": 0,
       "wait_group_num": 0,
       "update_date": "2026年07月14日(火)",
-      "update_time": "24:07",
+      "update_time": "25:37",
       "detail": null,
       "queue_url": "https://www.round1.co.jp/yoyaku/queue/bowling/index.php?service_department_id=1&store_id=2123"
     },
@@ -435,10 +435,10 @@
       "ok": true,
       "error": null,
       "available": true,
-      "wait_time": 0,
-      "wait_group_num": 0,
+      "wait_time": 10,
+      "wait_group_num": 1,
       "update_date": "2026年07月14日(火)",
-      "update_time": "24:09",
+      "update_time": "25:37",
       "detail": null,
       "queue_url": "https://www.round1.co.jp/yoyaku/queue/bowling/index.php?service_department_id=1&store_id=2050"
     },
@@ -465,10 +465,10 @@
       "ok": true,
       "error": null,
       "available": true,
-      "wait_time": 5,
-      "wait_group_num": 1,
+      "wait_time": 0,
+      "wait_group_num": 0,
       "update_date": "2026年07月14日(火)",
-      "update_time": "24:09",
+      "update_time": "25:39",
       "detail": null,
       "queue_url": "https://www.round1.co.jp/yoyaku/queue/bowling/index.php?service_department_id=1&store_id=2052"
     },
@@ -483,7 +483,7 @@
       "wait_time": 0,
       "wait_group_num": 0,
       "update_date": "2026年07月14日(火)",
-      "update_time": "24:07",
+      "update_time": "25:37",
       "detail": null,
       "queue_url": "https://www.round1.co.jp/yoyaku/queue/bowling/index.php?service_department_id=1&store_id=2118"
     },
@@ -495,10 +495,10 @@
       "ok": true,
       "error": null,
       "available": true,
-      "wait_time": 20,
-      "wait_group_num": 1,
+      "wait_time": 0,
+      "wait_group_num": 0,
       "update_date": "2026年07月14日(火)",
-      "update_time": "24:07",
+      "update_time": "25:38",
       "detail": null,
       "queue_url": "https://www.round1.co.jp/yoyaku/queue/bowling/index.php?service_department_id=1&store_id=2036"
     },
@@ -510,10 +510,10 @@
       "ok": true,
       "error": null,
       "available": true,
-      "wait_time": 0,
-      "wait_group_num": 0,
+      "wait_time": 16,
+      "wait_group_num": 2,
       "update_date": "2026年07月14日(火)",
-      "update_time": "24:04",
+      "update_time": "25:34",
       "detail": null,
       "queue_url": "https://www.round1.co.jp/yoyaku/queue/bowling/index.php?service_department_id=1&store_id=2037"
     },
@@ -528,7 +528,7 @@
       "wait_time": 0,
       "wait_group_num": 0,
       "update_date": "2026年07月14日(火)",
-      "update_time": "24:08",
+      "update_time": "25:35",
       "detail": null,
       "queue_url": "https://www.round1.co.jp/yoyaku/queue/bowling/index.php?service_department_id=1&store_id=2038"
     },
@@ -558,7 +558,7 @@
       "wait_time": 0,
       "wait_group_num": 0,
       "update_date": "2026年07月14日(火)",
-      "update_time": "24:09",
+      "update_time": "25:39",
       "detail": null,
       "queue_url": "https://www.round1.co.jp/yoyaku/queue/bowling/index.php?service_department_id=1&store_id=2040"
     },
@@ -573,7 +573,7 @@
       "wait_time": 0,
       "wait_group_num": 0,
       "update_date": "2026年07月14日(火)",
-      "update_time": "24:07",
+      "update_time": "25:37",
       "detail": null,
       "queue_url": "https://www.round1.co.jp/yoyaku/queue/bowling/index.php?service_department_id=1&store_id=2041"
     },
@@ -588,7 +588,7 @@
       "wait_time": 0,
       "wait_group_num": 0,
       "update_date": "2026年07月14日(火)",
-      "update_time": "24:08",
+      "update_time": "25:38",
       "detail": null,
       "queue_url": "https://www.round1.co.jp/yoyaku/queue/bowling/index.php?service_department_id=1&store_id=2042"
     },
@@ -603,7 +603,7 @@
       "wait_time": 0,
       "wait_group_num": 0,
       "update_date": "2026年07月14日(火)",
-      "update_time": "24:07",
+      "update_time": "25:35",
       "detail": null,
       "queue_url": "https://www.round1.co.jp/yoyaku/queue/bowling/index.php?service_department_id=1&store_id=2120"
     },
@@ -618,7 +618,7 @@
       "wait_time": 0,
       "wait_group_num": 0,
       "update_date": "2026年07月14日(火)",
-      "update_time": "24:08",
+      "update_time": "25:37",
       "detail": null,
       "queue_url": "https://www.round1.co.jp/yoyaku/queue/bowling/index.php?service_department_id=1&store_id=2045"
     },
@@ -630,10 +630,10 @@
       "ok": true,
       "error": null,
       "available": true,
-      "wait_time": 0,
-      "wait_group_num": 0,
+      "wait_time": 5,
+      "wait_group_num": 1,
       "update_date": "2026年07月14日(火)",
-      "update_time": "24:08",
+      "update_time": "25:35",
       "detail": null,
       "queue_url": "https://www.round1.co.jp/yoyaku/queue/bowling/index.php?service_department_id=1&store_id=2046"
     },
@@ -648,7 +648,7 @@
       "wait_time": 0,
       "wait_group_num": 0,
       "update_date": "2026年07月14日(火)",
-      "update_time": "24:07",
+      "update_time": "25:34",
       "detail": null,
       "queue_url": "https://www.round1.co.jp/yoyaku/queue/bowling/index.php?service_department_id=1&store_id=2047"
     },
@@ -663,7 +663,7 @@
       "wait_time": 0,
       "wait_group_num": 0,
       "update_date": "2026年07月14日(火)",
-      "update_time": "24:09",
+      "update_time": "25:39",
       "detail": null,
       "queue_url": "https://www.round1.co.jp/yoyaku/queue/bowling/index.php?service_department_id=1&store_id=2119"
     },
@@ -678,7 +678,7 @@
       "wait_time": 0,
       "wait_group_num": 0,
       "update_date": "2026年07月14日(火)",
-      "update_time": "24:08",
+      "update_time": "25:38",
       "detail": null,
       "queue_url": "https://www.round1.co.jp/yoyaku/queue/bowling/index.php?service_department_id=1&store_id=2127"
     },
@@ -720,10 +720,10 @@
       "ok": true,
       "error": null,
       "available": true,
-      "wait_time": 5,
-      "wait_group_num": 1,
+      "wait_time": 0,
+      "wait_group_num": 0,
       "update_date": "2026年07月14日(火)",
-      "update_time": "24:08",
+      "update_time": "25:38",
       "detail": null,
       "queue_url": "https://www.round1.co.jp/yoyaku/queue/bowling/index.php?service_department_id=1&store_id=2077"
     },
@@ -753,7 +753,7 @@
       "wait_time": 0,
       "wait_group_num": 0,
       "update_date": "2026年07月14日(火)",
-      "update_time": "24:09",
+      "update_time": "25:39",
       "detail": null,
       "queue_url": "https://www.round1.co.jp/yoyaku/queue/bowling/index.php?service_department_id=1&store_id=2068"
     },
@@ -768,7 +768,7 @@
       "wait_time": 0,
       "wait_group_num": 0,
       "update_date": "2026年07月14日(火)",
-      "update_time": "24:09",
+      "update_time": "25:39",
       "detail": null,
       "queue_url": "https://www.round1.co.jp/yoyaku/queue/bowling/index.php?service_department_id=1&store_id=2070"
     },
@@ -783,7 +783,7 @@
       "wait_time": 0,
       "wait_group_num": 0,
       "update_date": "2026年07月14日(火)",
-      "update_time": "24:07",
+      "update_time": "25:36",
       "detail": null,
       "queue_url": "https://www.round1.co.jp/yoyaku/queue/bowling/index.php?service_department_id=1&store_id=2072"
     },
@@ -795,10 +795,10 @@
       "ok": true,
       "error": null,
       "available": true,
-      "wait_time": 5,
-      "wait_group_num": 1,
+      "wait_time": 0,
+      "wait_group_num": 0,
       "update_date": "2026年07月14日(火)",
-      "update_time": "24:08",
+      "update_time": "25:35",
       "detail": null,
       "queue_url": "https://www.round1.co.jp/yoyaku/queue/bowling/index.php?service_department_id=1&store_id=2073"
     },
@@ -810,10 +810,10 @@
       "ok": true,
       "error": null,
       "available": true,
-      "wait_time": 5,
-      "wait_group_num": 1,
+      "wait_time": 0,
+      "wait_group_num": 0,
       "update_date": "2026年07月14日(火)",
-      "update_time": "24:09",
+      "update_time": "25:31",
       "detail": null,
       "queue_url": "https://www.round1.co.jp/yoyaku/queue/bowling/index.php?service_department_id=1&store_id=2074"
     },
@@ -828,7 +828,7 @@
       "wait_time": 0,
       "wait_group_num": 0,
       "update_date": "2026年07月14日(火)",
-      "update_time": "24:04",
+      "update_time": "25:35",
       "detail": null,
       "queue_url": "https://www.round1.co.jp/yoyaku/queue/bowling/index.php?service_department_id=1&store_id=2075"
     },
@@ -843,7 +843,7 @@
       "wait_time": 0,
       "wait_group_num": 0,
       "update_date": "2026年07月14日(火)",
-      "update_time": "24:08",
+      "update_time": "25:38",
       "detail": null,
       "queue_url": "https://www.round1.co.jp/yoyaku/queue/bowling/index.php?service_department_id=1&store_id=2122"
     },
@@ -858,7 +858,7 @@
       "wait_time": 0,
       "wait_group_num": 0,
       "update_date": "2026年07月14日(火)",
-      "update_time": "24:00",
+      "update_time": "25:30",
       "detail": null,
       "queue_url": "https://www.round1.co.jp/yoyaku/queue/bowling/index.php?service_department_id=1&store_id=2081"
     },
@@ -888,7 +888,7 @@
       "wait_time": 0,
       "wait_group_num": 0,
       "update_date": "2026年07月14日(火)",
-      "update_time": "24:09",
+      "update_time": "25:39",
       "detail": null,
       "queue_url": "https://www.round1.co.jp/yoyaku/queue/bowling/index.php?service_department_id=1&store_id=2033"
     },
@@ -900,10 +900,10 @@
       "ok": true,
       "error": null,
       "available": true,
-      "wait_time": 0,
-      "wait_group_num": 0,
+      "wait_time": 5,
+      "wait_group_num": 1,
       "update_date": "2026年07月14日(火)",
-      "update_time": "24:09",
+      "update_time": "25:37",
       "detail": null,
       "queue_url": "https://www.round1.co.jp/yoyaku/queue/bowling/index.php?service_department_id=1&store_id=2029"
     },
@@ -918,7 +918,7 @@
       "wait_time": 0,
       "wait_group_num": 0,
       "update_date": "2026年07月14日(火)",
-      "update_time": "24:09",
+      "update_time": "25:37",
       "detail": null,
       "queue_url": "https://www.round1.co.jp/yoyaku/queue/bowling/index.php?service_department_id=1&store_id=2030"
     },
@@ -933,7 +933,7 @@
       "wait_time": 0,
       "wait_group_num": 0,
       "update_date": "2026年07月14日(火)",
-      "update_time": "24:09",
+      "update_time": "25:39",
       "detail": null,
       "queue_url": "https://www.round1.co.jp/yoyaku/queue/bowling/index.php?service_department_id=1&store_id=2002"
     },
@@ -948,7 +948,7 @@
       "wait_time": 0,
       "wait_group_num": 0,
       "update_date": "2026年07月14日(火)",
-      "update_time": "24:09",
+      "update_time": "25:38",
       "detail": null,
       "queue_url": "https://www.round1.co.jp/yoyaku/queue/bowling/index.php?service_department_id=1&store_id=2003"
     },
@@ -978,7 +978,7 @@
       "wait_time": 0,
       "wait_group_num": 0,
       "update_date": "2026年07月14日(火)",
-      "update_time": "24:09",
+      "update_time": "25:39",
       "detail": null,
       "queue_url": "https://www.round1.co.jp/yoyaku/queue/bowling/index.php?service_department_id=1&store_id=2008"
     },
@@ -993,7 +993,7 @@
       "wait_time": 0,
       "wait_group_num": 0,
       "update_date": "2026年07月14日(火)",
-      "update_time": "24:07",
+      "update_time": "25:38",
       "detail": null,
       "queue_url": "https://www.round1.co.jp/yoyaku/queue/bowling/index.php?service_department_id=1&store_id=2011"
     },
@@ -1008,7 +1008,7 @@
       "wait_time": 0,
       "wait_group_num": 0,
       "update_date": "2026年07月14日(火)",
-      "update_time": "24:06",
+      "update_time": "25:38",
       "detail": null,
       "queue_url": "https://www.round1.co.jp/yoyaku/queue/bowling/index.php?service_department_id=1&store_id=2012"
     },
@@ -1020,10 +1020,10 @@
       "ok": true,
       "error": null,
       "available": true,
-      "wait_time": 18,
-      "wait_group_num": 1,
+      "wait_time": 0,
+      "wait_group_num": 0,
       "update_date": "2026年07月14日(火)",
-      "update_time": "24:09",
+      "update_time": "25:31",
       "detail": null,
       "queue_url": "https://www.round1.co.jp/yoyaku/queue/bowling/index.php?service_department_id=1&store_id=2013"
     },
@@ -1038,7 +1038,7 @@
       "wait_time": 0,
       "wait_group_num": 0,
       "update_date": "2026年07月14日(火)",
-      "update_time": "24:04",
+      "update_time": "25:33",
       "detail": null,
       "queue_url": "https://www.round1.co.jp/yoyaku/queue/bowling/index.php?service_department_id=1&store_id=2014"
     },
@@ -1053,7 +1053,7 @@
       "wait_time": 0,
       "wait_group_num": 0,
       "update_date": "2026年07月14日(火)",
-      "update_time": "24:08",
+      "update_time": "25:38",
       "detail": null,
       "queue_url": "https://www.round1.co.jp/yoyaku/queue/bowling/index.php?service_department_id=1&store_id=2016"
     },
@@ -1065,10 +1065,10 @@
       "ok": true,
       "error": null,
       "available": true,
-      "wait_time": 8,
-      "wait_group_num": 1,
+      "wait_time": 0,
+      "wait_group_num": 0,
       "update_date": "2026年07月14日(火)",
-      "update_time": "24:09",
+      "update_time": "25:38",
       "detail": null,
       "queue_url": "https://www.round1.co.jp/yoyaku/queue/bowling/index.php?service_department_id=1&store_id=2017"
     },
@@ -1080,10 +1080,10 @@
       "ok": true,
       "error": null,
       "available": true,
-      "wait_time": 5,
-      "wait_group_num": 1,
+      "wait_time": 10,
+      "wait_group_num": 2,
       "update_date": "2026年07月14日(火)",
-      "update_time": "24:08",
+      "update_time": "25:38",
       "detail": null,
       "queue_url": "https://www.round1.co.jp/yoyaku/queue/bowling/index.php?service_department_id=1&store_id=2018"
     },
@@ -1113,7 +1113,7 @@
       "wait_time": 0,
       "wait_group_num": 0,
       "update_date": "2026年07月14日(火)",
-      "update_time": "24:08",
+      "update_time": "25:38",
       "detail": null,
       "queue_url": "https://www.round1.co.jp/yoyaku/queue/bowling/index.php?service_department_id=1&store_id=2020"
     },
@@ -1143,7 +1143,7 @@
       "wait_time": 0,
       "wait_group_num": 0,
       "update_date": "2026年07月14日(火)",
-      "update_time": "24:09",
+      "update_time": "25:39",
       "detail": null,
       "queue_url": "https://www.round1.co.jp/yoyaku/queue/bowling/index.php?service_department_id=1&store_id=2025"
     },
@@ -1158,7 +1158,7 @@
       "wait_time": 0,
       "wait_group_num": 0,
       "update_date": "2026年07月14日(火)",
-      "update_time": "24:09",
+      "update_time": "25:39",
       "detail": null,
       "queue_url": "https://www.round1.co.jp/yoyaku/queue/bowling/index.php?service_department_id=1&store_id=2027"
     },
@@ -1173,7 +1173,7 @@
       "wait_time": 0,
       "wait_group_num": 0,
       "update_date": "2026年07月14日(火)",
-      "update_time": "24:08",
+      "update_time": "25:39",
       "detail": null,
       "queue_url": "https://www.round1.co.jp/yoyaku/queue/bowling/index.php?service_department_id=1&store_id=2028"
     },
@@ -1218,7 +1218,7 @@
       "wait_time": 0,
       "wait_group_num": 0,
       "update_date": "2026年07月14日(火)",
-      "update_time": "24:09",
+      "update_time": "25:38",
       "detail": null,
       "queue_url": "https://www.round1.co.jp/yoyaku/queue/bowling/index.php?service_department_id=1&store_id=2098"
     },
@@ -1230,10 +1230,10 @@
       "ok": true,
       "error": null,
       "available": true,
-      "wait_time": 0,
-      "wait_group_num": 0,
+      "wait_time": 5,
+      "wait_group_num": 1,
       "update_date": "2026年07月14日(火)",
-      "update_time": "24:09",
+      "update_time": "25:38",
       "detail": null,
       "queue_url": "https://www.round1.co.jp/yoyaku/queue/bowling/index.php?service_department_id=1&store_id=2095"
     },
@@ -1263,7 +1263,7 @@
       "wait_time": 0,
       "wait_group_num": 0,
       "update_date": "2026年07月14日(火)",
-      "update_time": "24:09",
+      "update_time": "25:39",
       "detail": null,
       "queue_url": "https://www.round1.co.jp/yoyaku/queue/bowling/index.php?service_department_id=1&store_id=2100"
     },
@@ -1293,7 +1293,7 @@
       "wait_time": 0,
       "wait_group_num": 0,
       "update_date": "2026年07月14日(火)",
-      "update_time": "24:09",
+      "update_time": "25:39",
       "detail": null,
       "queue_url": "https://www.round1.co.jp/yoyaku/queue/bowling/index.php?service_department_id=1&store_id=2102"
     },
@@ -1308,7 +1308,7 @@
       "wait_time": 0,
       "wait_group_num": 0,
       "update_date": "2026年07月14日(火)",
-      "update_time": "24:09",
+      "update_time": "25:39",
       "detail": null,
       "queue_url": "https://www.round1.co.jp/yoyaku/queue/bowling/index.php?service_department_id=1&store_id=2115"
     },
@@ -1323,7 +1323,7 @@
       "wait_time": 0,
       "wait_group_num": 0,
       "update_date": "2026年07月14日(火)",
-      "update_time": "24:06",
+      "update_time": "25:36",
       "detail": null,
       "queue_url": "https://www.round1.co.jp/yoyaku/queue/bowling/index.php?service_department_id=1&store_id=2103"
     },
@@ -1338,7 +1338,7 @@
       "wait_time": 0,
       "wait_group_num": 0,
       "update_date": "2026年07月14日(火)",
-      "update_time": "24:07",
+      "update_time": "25:38",
       "detail": null,
       "queue_url": "https://www.round1.co.jp/yoyaku/queue/bowling/index.php?service_department_id=1&store_id=2104"
     },
@@ -1353,7 +1353,7 @@
       "wait_time": 0,
       "wait_group_num": 0,
       "update_date": "2026年07月14日(火)",
-      "update_time": "24:09",
+      "update_time": "25:39",
       "detail": null,
       "queue_url": "https://www.round1.co.jp/yoyaku/queue/bowling/index.php?service_department_id=1&store_id=2105"
     },
@@ -1383,7 +1383,7 @@
       "wait_time": 0,
       "wait_group_num": 0,
       "update_date": "2026年07月14日(火)",
-      "update_time": "24:09",
+      "update_time": "25:39",
       "detail": null,
       "queue_url": "https://www.round1.co.jp/yoyaku/queue/bowling/index.php?service_department_id=1&store_id=2109"
     },
@@ -1398,7 +1398,7 @@
       "wait_time": 0,
       "wait_group_num": 0,
       "update_date": "2026年07月14日(火)",
-      "update_time": "24:09",
+      "update_time": "25:37",
       "detail": null,
       "queue_url": "https://www.round1.co.jp/yoyaku/queue/bowling/index.php?service_department_id=1&store_id=2107"
     },
@@ -1413,7 +1413,7 @@
       "wait_time": 0,
       "wait_group_num": 0,
       "update_date": "2026年07月14日(火)",
-      "update_time": "24:08",
+      "update_time": "25:37",
       "detail": null,
       "queue_url": "https://www.round1.co.jp/yoyaku/queue/bowling/index.php?service_department_id=1&store_id=2111"
     },
@@ -1428,7 +1428,7 @@
       "wait_time": 0,
       "wait_group_num": 0,
       "update_date": "2026年07月14日(火)",
-      "update_time": "24:09",
+      "update_time": "25:39",
       "detail": null,
       "queue_url": "https://www.round1.co.jp/yoyaku/queue/bowling/index.php?service_department_id=1&store_id=2110"
     },
@@ -1443,7 +1443,7 @@
       "wait_time": 0,
       "wait_group_num": 0,
       "update_date": "2026年07月14日(火)",
-      "update_time": "24:07",
+      "update_time": "25:37",
       "detail": null,
       "queue_url": "https://www.round1.co.jp/yoyaku/queue/bowling/index.php?service_department_id=1&store_id=2108"
     },
@@ -1458,7 +1458,7 @@
       "wait_time": 0,
       "wait_group_num": 0,
       "update_date": "2026年07月14日(火)",
-      "update_time": "24:09",
+      "update_time": "25:39",
       "detail": null,
       "queue_url": "https://www.round1.co.jp/yoyaku/queue/bowling/index.php?service_department_id=1&store_id=2112"
     },
@@ -1473,7 +1473,7 @@
       "wait_time": 0,
       "wait_group_num": 0,
       "update_date": "2026年07月14日(火)",
-      "update_time": "24:09",
+      "update_time": "25:39",
       "detail": null,
       "queue_url": "https://www.round1.co.jp/yoyaku/queue/bowling/index.php?service_department_id=1&store_id=2113"
     }
