@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-07-14T22:04:02+00:00",
+  "fetched_at": "2026-07-15T22:07:35+00:00",
   "source": "http://r1b.jp",
   "categories": [
     {
@@ -311,7 +311,7 @@
   ],
   "counts": {
     "ボール": 144,
-    "シューズ": 124,
+    "シューズ": 126,
     "バッグ": 94,
     "ウェア": 1180,
     "グローブ": 67,
@@ -321,7 +321,7 @@
   },
   "brand_counts": {
     "Pro-Am": 695,
-    "ABS": 555,
+    "ABS": 557,
     "HI-SP": 131,
     "Wave": 85,
     "Storm": 82,
@@ -349,14 +349,14 @@
     "Hammy's": 1
   },
   "maker_counts": {
-    "ABS": 1321,
+    "ABS": 1323,
     "HI-SP": 261,
     "サンブリッジ": 179,
     "ARK": 117,
     "STEEL": 39,
     "レジェンドスター": 14
   },
-  "total": 1931,
+  "total": 1933,
   "items": [
     {
       "id": "5128|8652",
@@ -1431,22 +1431,6 @@
       "url": "http://r1b.jp/item.php?prc=detail&cmd=confirm&sid=4675|8072"
     },
     {
-      "id": "4896|8325",
-      "name": "SUPRA CLUTCH",
-      "brand": "Motiv",
-      "brand_id": 11,
-      "maker": "ABS",
-      "maker_id": 2,
-      "category_id": 1,
-      "category": "ボール",
-      "category_key": "ball",
-      "image": "http://r1b.jp/img/image/item/pro_item_2026070811224588229856.jpg",
-      "member_price": 31482,
-      "list_price": 59400,
-      "discount_percent": 47,
-      "url": "http://r1b.jp/item.php?prc=detail&cmd=confirm&sid=4896|8325"
-    },
-    {
       "id": "5182|8761",
       "name": "SUPRA SPORT",
       "brand": "Motiv",
@@ -1680,7 +1664,7 @@
       "category_id": 1,
       "category": "ボール",
       "category_key": "ball",
-      "image": "http://r1b.jp/img/image/item/pro_item_20260626180713490109775.jpg",
+      "image": "http://r1b.jp/img/image/item/pro_item_202607101802352047272167.jpg",
       "member_price": 29150,
       "list_price": 55000,
       "discount_percent": 47,
@@ -2007,6 +1991,22 @@
       "url": "http://r1b.jp/item.php?prc=detail&cmd=confirm&sid=5207|8803"
     },
     {
+      "id": "4896|8325",
+      "name": "SUPRA CLUTCH",
+      "brand": "Motiv",
+      "brand_id": 11,
+      "maker": "ABS",
+      "maker_id": 2,
+      "category_id": 1,
+      "category": "ボール",
+      "category_key": "ball",
+      "image": "http://r1b.jp/img/image/item/pro_item_2026070811224588229856.jpg",
+      "member_price": 24354,
+      "list_price": 59400,
+      "discount_percent": 59,
+      "url": "http://r1b.jp/item.php?prc=detail&cmd=confirm&sid=4896|8325"
+    },
+    {
       "id": "4746|8165",
       "name": "MAX THRILL HYBRID",
       "brand": "Motiv",
@@ -2016,7 +2016,7 @@
       "category_id": 1,
       "category": "ボール",
       "category_key": "ball",
-      "image": "http://r1b.jp/img/image/item/pro_item_20260605180805997586423.jpg",
+      "image": "http://r1b.jp/img/image/item/pro_item_202607101801291912714981.jpg",
       "member_price": 22737,
       "list_price": 42900,
       "discount_percent": 47,
@@ -2711,22 +2711,6 @@
       "url": "http://r1b.jp/item.php?prc=detail&cmd=confirm&sid=4072|7052"
     },
     {
-      "id": "5226|8833",
-      "name": "SST X",
-      "brand": "Dexter",
-      "brand_id": 6,
-      "maker": "サンブリッジ",
-      "maker_id": 1,
-      "category_id": 2,
-      "category": "シューズ",
-      "category_key": "shoes",
-      "image": "http://r1b.jp/img/image/item/pro_item_20260707120231743523580.jpg",
-      "member_price": 31350,
-      "list_price": 55000,
-      "discount_percent": 43,
-      "url": "http://r1b.jp/item.php?prc=detail&cmd=confirm&sid=5226|8833"
-    },
-    {
       "id": "5225|8832",
       "name": "SST X",
       "brand": "Dexter",
@@ -2741,6 +2725,22 @@
       "list_price": 55000,
       "discount_percent": 43,
       "url": "http://r1b.jp/item.php?prc=detail&cmd=confirm&sid=5225|8832"
+    },
+    {
+      "id": "5226|8833",
+      "name": "SST X",
+      "brand": "Dexter",
+      "brand_id": 6,
+      "maker": "サンブリッジ",
+      "maker_id": 1,
+      "category_id": 2,
+      "category": "シューズ",
+      "category_key": "shoes",
+      "image": "http://r1b.jp/img/image/item/pro_item_20260707120231743523580.jpg",
+      "member_price": 31350,
+      "list_price": 55000,
+      "discount_percent": 43,
+      "url": "http://r1b.jp/item.php?prc=detail&cmd=confirm&sid=5226|8833"
     },
     {
       "id": "5057|8546",
@@ -2981,6 +2981,38 @@
       "list_price": 43780,
       "discount_percent": 40,
       "url": "http://r1b.jp/item.php?prc=detail&cmd=confirm&sid=5042|8521"
+    },
+    {
+      "id": "5228|8838",
+      "name": "ABS CLASSIC AKI NAWA MODEL 左右兼用「限定商品の為、返品不可」",
+      "brand": "ABS",
+      "brand_id": 10,
+      "maker": "ABS",
+      "maker_id": 2,
+      "category_id": 2,
+      "category": "シューズ",
+      "category_key": "shoes",
+      "image": "http://r1b.jp/img/image/item/pro_item_202607151840391412222948.png",
+      "member_price": 26125,
+      "list_price": 27500,
+      "discount_percent": 5,
+      "url": "http://r1b.jp/item.php?prc=detail&cmd=confirm&sid=5228|8838"
+    },
+    {
+      "id": "5229|8839",
+      "name": "ABS CLASSIC AKI NAWA MODEL 左右兼用「限定商品の為、返品不可」",
+      "brand": "ABS",
+      "brand_id": 10,
+      "maker": "ABS",
+      "maker_id": 2,
+      "category_id": 2,
+      "category": "シューズ",
+      "category_key": "shoes",
+      "image": "http://r1b.jp/img/image/item/pro_item_202607151849322098754197.png",
+      "member_price": 26125,
+      "list_price": 27500,
+      "discount_percent": 5,
+      "url": "http://r1b.jp/item.php?prc=detail&cmd=confirm&sid=5229|8839"
     },
     {
       "id": "4070|7050",
@@ -4823,6 +4855,38 @@
       "url": "http://r1b.jp/item.php?prc=detail&cmd=confirm&sid=4298|7344"
     },
     {
+      "id": "5055|8543",
+      "name": "BB260",
+      "brand": "Brunswick",
+      "brand_id": 5,
+      "maker": "サンブリッジ",
+      "maker_id": 1,
+      "category_id": 3,
+      "category": "バッグ",
+      "category_key": "bag",
+      "image": "http://r1b.jp/img/image/item/pro_item_202510022043411951709863.jpg",
+      "member_price": 17160,
+      "list_price": 28600,
+      "discount_percent": 40,
+      "url": "http://r1b.jp/item.php?prc=detail&cmd=confirm&sid=5055|8543"
+    },
+    {
+      "id": "5056|8545",
+      "name": "BD260",
+      "brand": "DV8",
+      "brand_id": 4,
+      "maker": "サンブリッジ",
+      "maker_id": 1,
+      "category_id": 3,
+      "category": "バッグ",
+      "category_key": "bag",
+      "image": "http://r1b.jp/img/image/item/pro_item_20251002204307278647766.jpg",
+      "member_price": 17160,
+      "list_price": 28600,
+      "discount_percent": 40,
+      "url": "http://r1b.jp/item.php?prc=detail&cmd=confirm&sid=5056|8545"
+    },
+    {
       "id": "4942|8390",
       "name": "チームサンブリッジ・トリプルローラーバッグ",
       "brand": "Sunbridge",
@@ -4981,38 +5045,6 @@
       "list_price": 24200,
       "discount_percent": 40,
       "url": "http://r1b.jp/item.php?prc=detail&cmd=confirm&sid=4941|8388"
-    },
-    {
-      "id": "5055|8543",
-      "name": "BB260",
-      "brand": "Brunswick",
-      "brand_id": 5,
-      "maker": "サンブリッジ",
-      "maker_id": 1,
-      "category_id": 3,
-      "category": "バッグ",
-      "category_key": "bag",
-      "image": "http://r1b.jp/img/image/item/pro_item_202510022043411951709863.jpg",
-      "member_price": 14300,
-      "list_price": 28600,
-      "discount_percent": 50,
-      "url": "http://r1b.jp/item.php?prc=detail&cmd=confirm&sid=5055|8543"
-    },
-    {
-      "id": "5056|8545",
-      "name": "BD260",
-      "brand": "DV8",
-      "brand_id": 4,
-      "maker": "サンブリッジ",
-      "maker_id": 1,
-      "category_id": 3,
-      "category": "バッグ",
-      "category_key": "bag",
-      "image": "http://r1b.jp/img/image/item/pro_item_20251002204307278647766.jpg",
-      "member_price": 14300,
-      "list_price": 28600,
-      "discount_percent": 50,
-      "url": "http://r1b.jp/item.php?prc=detail&cmd=confirm&sid=5056|8545"
     },
     {
       "id": "5069|8591",
@@ -13559,22 +13591,6 @@
       "url": "http://r1b.jp/item.php?prc=detail&cmd=confirm&sid=4188|7226"
     },
     {
-      "id": "3557|6224",
-      "name": "BP048",
-      "brand": "B+",
-      "brand_id": 7,
-      "maker": "サンブリッジ",
-      "maker_id": 1,
-      "category_id": 4,
-      "category": "ウェア",
-      "category_key": "ware",
-      "image": "http://r1b.jp/img/image/item/pro_item_202301271750491899000969.jpg",
-      "member_price": 9867,
-      "list_price": 15180,
-      "discount_percent": 35,
-      "url": "http://r1b.jp/item.php?prc=detail&cmd=confirm&sid=3557|6224"
-    },
-    {
       "id": "4189|7229",
       "name": "BP048",
       "brand": "B+",
@@ -13589,6 +13605,22 @@
       "list_price": 15180,
       "discount_percent": 35,
       "url": "http://r1b.jp/item.php?prc=detail&cmd=confirm&sid=4189|7229"
+    },
+    {
+      "id": "3557|6224",
+      "name": "BP048",
+      "brand": "B+",
+      "brand_id": 7,
+      "maker": "サンブリッジ",
+      "maker_id": 1,
+      "category_id": 4,
+      "category": "ウェア",
+      "category_key": "ware",
+      "image": "http://r1b.jp/img/image/item/pro_item_202301271750491899000969.jpg",
+      "member_price": 9867,
+      "list_price": 15180,
+      "discount_percent": 35,
+      "url": "http://r1b.jp/item.php?prc=detail&cmd=confirm&sid=3557|6224"
     },
     {
       "id": "3845|6662",
