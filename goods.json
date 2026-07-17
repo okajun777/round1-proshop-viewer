@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-07-16T22:11:13+00:00",
+  "fetched_at": "2026-07-17T22:00:34+00:00",
   "source": "http://r1b.jp",
   "categories": [
     {
@@ -313,7 +313,7 @@
     "ボール": 144,
     "シューズ": 126,
     "バッグ": 94,
-    "ウェア": 1180,
+    "ウェア": 1179,
     "グローブ": 67,
     "テープ": 126,
     "クリーナー": 45,
@@ -334,8 +334,8 @@
     "900 Global": 20,
     "Nanodesu": 15,
     "Vise": 15,
-    "B+": 14,
     "Sunbridge": 14,
+    "B+": 13,
     "DV8": 12,
     "Legend Star": 11,
     "その他": 11,
@@ -351,12 +351,12 @@
   "maker_counts": {
     "ABS": 1323,
     "HI-SP": 261,
-    "サンブリッジ": 179,
+    "サンブリッジ": 178,
     "ARK": 117,
     "STEEL": 39,
     "レジェンドスター": 14
   },
-  "total": 1933,
+  "total": 1932,
   "items": [
     {
       "id": "5128|8652",
@@ -560,7 +560,7 @@
       "category_id": 1,
       "category": "ボール",
       "category_key": "ball",
-      "image": "http://r1b.jp/img/image/item/pro_item_20260626180505491634429.jpg",
+      "image": "http://r1b.jp/img/image/item/pro_item_20260717153503752217061.jpg",
       "member_price": 36146,
       "list_price": 68200,
       "discount_percent": 47,
@@ -1072,7 +1072,7 @@
       "category_id": 1,
       "category": "ボール",
       "category_key": "ball",
-      "image": "http://r1b.jp/img/image/item/pro_item_20260424195251765805682.jpg",
+      "image": "http://r1b.jp/img/image/item/pro_item_202607171533501072593804.jpg",
       "member_price": 33814,
       "list_price": 63800,
       "discount_percent": 47,
@@ -2711,22 +2711,6 @@
       "url": "http://r1b.jp/item.php?prc=detail&cmd=confirm&sid=4072|7052"
     },
     {
-      "id": "5226|8833",
-      "name": "SST X",
-      "brand": "Dexter",
-      "brand_id": 6,
-      "maker": "サンブリッジ",
-      "maker_id": 1,
-      "category_id": 2,
-      "category": "シューズ",
-      "category_key": "shoes",
-      "image": "http://r1b.jp/img/image/item/pro_item_20260707120231743523580.jpg",
-      "member_price": 31350,
-      "list_price": 55000,
-      "discount_percent": 43,
-      "url": "http://r1b.jp/item.php?prc=detail&cmd=confirm&sid=5226|8833"
-    },
-    {
       "id": "5225|8832",
       "name": "SST X",
       "brand": "Dexter",
@@ -2741,6 +2725,22 @@
       "list_price": 55000,
       "discount_percent": 43,
       "url": "http://r1b.jp/item.php?prc=detail&cmd=confirm&sid=5225|8832"
+    },
+    {
+      "id": "5226|8833",
+      "name": "SST X",
+      "brand": "Dexter",
+      "brand_id": 6,
+      "maker": "サンブリッジ",
+      "maker_id": 1,
+      "category_id": 2,
+      "category": "シューズ",
+      "category_key": "shoes",
+      "image": "http://r1b.jp/img/image/item/pro_item_20260707120231743523580.jpg",
+      "member_price": 31350,
+      "list_price": 55000,
+      "discount_percent": 43,
+      "url": "http://r1b.jp/item.php?prc=detail&cmd=confirm&sid=5226|8833"
     },
     {
       "id": "5057|8546",
@@ -2983,22 +2983,6 @@
       "url": "http://r1b.jp/item.php?prc=detail&cmd=confirm&sid=5042|8521"
     },
     {
-      "id": "5228|8838",
-      "name": "ABS CLASSIC AKI NAWA MODEL 左右兼用「限定商品の為、返品不可」",
-      "brand": "ABS",
-      "brand_id": 10,
-      "maker": "ABS",
-      "maker_id": 2,
-      "category_id": 2,
-      "category": "シューズ",
-      "category_key": "shoes",
-      "image": "http://r1b.jp/img/image/item/pro_item_202607151840391412222948.png",
-      "member_price": 26125,
-      "list_price": 27500,
-      "discount_percent": 5,
-      "url": "http://r1b.jp/item.php?prc=detail&cmd=confirm&sid=5228|8838"
-    },
-    {
       "id": "5229|8839",
       "name": "ABS CLASSIC AKI NAWA MODEL 左右兼用「限定商品の為、返品不可」",
       "brand": "ABS",
@@ -3013,6 +2997,22 @@
       "list_price": 27500,
       "discount_percent": 5,
       "url": "http://r1b.jp/item.php?prc=detail&cmd=confirm&sid=5229|8839"
+    },
+    {
+      "id": "5228|8838",
+      "name": "ABS CLASSIC AKI NAWA MODEL 左右兼用「限定商品の為、返品不可」",
+      "brand": "ABS",
+      "brand_id": 10,
+      "maker": "ABS",
+      "maker_id": 2,
+      "category_id": 2,
+      "category": "シューズ",
+      "category_key": "shoes",
+      "image": "http://r1b.jp/img/image/item/pro_item_202607151840391412222948.png",
+      "member_price": 26125,
+      "list_price": 27500,
+      "discount_percent": 5,
+      "url": "http://r1b.jp/item.php?prc=detail&cmd=confirm&sid=5228|8838"
     },
     {
       "id": "4070|7050",
@@ -3552,7 +3552,7 @@
       "category_id": 2,
       "category": "シューズ",
       "category_key": "shoes",
-      "image": "http://r1b.jp/img/image/item/pro_item_202605292257181826043480.jpg",
+      "image": "http://r1b.jp/img/image/item/pro_item_2026071713400629065470.jpg",
       "member_price": 3374,
       "list_price": 5720,
       "discount_percent": 41,
@@ -13589,22 +13589,6 @@
       "list_price": 15180,
       "discount_percent": 35,
       "url": "http://r1b.jp/item.php?prc=detail&cmd=confirm&sid=4188|7226"
-    },
-    {
-      "id": "3557|6224",
-      "name": "BP048",
-      "brand": "B+",
-      "brand_id": 7,
-      "maker": "サンブリッジ",
-      "maker_id": 1,
-      "category_id": 4,
-      "category": "ウェア",
-      "category_key": "ware",
-      "image": "http://r1b.jp/img/image/item/pro_item_202301271750491899000969.jpg",
-      "member_price": 9867,
-      "list_price": 15180,
-      "discount_percent": 35,
-      "url": "http://r1b.jp/item.php?prc=detail&cmd=confirm&sid=3557|6224"
     },
     {
       "id": "4189|7229",
