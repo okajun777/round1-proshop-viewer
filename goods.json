@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-07-26T22:07:00+00:00",
+  "fetched_at": "2026-07-27T22:15:01+00:00",
   "source": "http://r1b.jp",
   "categories": [
     {
@@ -313,7 +313,7 @@
     "ボール": 144,
     "シューズ": 126,
     "バッグ": 94,
-    "ウェア": 1179,
+    "ウェア": 1180,
     "グローブ": 67,
     "テープ": 126,
     "クリーナー": 45,
@@ -334,8 +334,8 @@
     "900 Global": 20,
     "Nanodesu": 15,
     "Vise": 15,
+    "B+": 14,
     "Sunbridge": 14,
-    "B+": 13,
     "DV8": 12,
     "Legend Star": 11,
     "その他": 11,
@@ -351,12 +351,12 @@
   "maker_counts": {
     "ABS": 1323,
     "HI-SP": 261,
-    "サンブリッジ": 178,
+    "サンブリッジ": 179,
     "ARK": 117,
     "STEEL": 39,
     "レジェンドスター": 14
   },
-  "total": 1932,
+  "total": 1933,
   "items": [
     {
       "id": "5128|8652",
@@ -2656,7 +2656,7 @@
       "category_id": 1,
       "category": "ボール",
       "category_key": "ball",
-      "image": "http://r1b.jp/img/image/item/pro_item_20251016160935518487502.jpg",
+      "image": "http://r1b.jp/img/image/item/pro_item_20260722185639816285612.jpg",
       "member_price": 7645,
       "list_price": 15290,
       "discount_percent": 50,
@@ -13605,6 +13605,22 @@
       "list_price": 15180,
       "discount_percent": 35,
       "url": "http://r1b.jp/item.php?prc=detail&cmd=confirm&sid=3557|6224"
+    },
+    {
+      "id": "4189|7229",
+      "name": "BP048",
+      "brand": "B+",
+      "brand_id": 7,
+      "maker": "サンブリッジ",
+      "maker_id": 1,
+      "category_id": 4,
+      "category": "ウェア",
+      "category_key": "ware",
+      "image": "http://r1b.jp/img/image/item/pro_item_20231102080725380136791.jpg",
+      "member_price": 9867,
+      "list_price": 15180,
+      "discount_percent": 35,
+      "url": "http://r1b.jp/item.php?prc=detail&cmd=confirm&sid=4189|7229"
     },
     {
       "id": "3845|6662",
