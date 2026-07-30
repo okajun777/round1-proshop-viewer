@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-07-29T22:07:06+00:00",
+  "fetched_at": "2026-07-30T22:13:59+00:00",
   "source": "http://r1b.jp",
   "categories": [
     {
@@ -310,10 +310,10 @@
     }
   ],
   "counts": {
-    "ボール": 144,
+    "ボール": 149,
     "シューズ": 126,
     "バッグ": 94,
-    "ウェア": 1179,
+    "ウェア": 1180,
     "グローブ": 67,
     "テープ": 126,
     "クリーナー": 45,
@@ -324,39 +324,39 @@
     "ABS": 557,
     "HI-SP": 131,
     "Wave": 85,
-    "Storm": 82,
+    "Storm": 84,
     "Dexter": 61,
+    "Roto Grip": 39,
     "Steel": 39,
     "Brunswick": 37,
-    "Roto Grip": 37,
     "Motiv": 36,
     "Mechatecter": 21,
     "900 Global": 20,
     "Nanodesu": 15,
     "Vise": 15,
+    "B+": 14,
     "Sunbridge": 14,
-    "B+": 13,
     "DV8": 12,
     "Legend Star": 11,
     "その他": 11,
     "Master": 10,
     "Radical": 10,
     "Hellbent": 7,
+    "Hammer": 5,
     "Ebonite": 4,
-    "Hammer": 4,
     "Track": 2,
     "Turbo": 2,
     "Hammy's": 1
   },
   "maker_counts": {
     "ABS": 1323,
-    "HI-SP": 261,
-    "サンブリッジ": 178,
+    "HI-SP": 265,
+    "サンブリッジ": 180,
     "ARK": 117,
     "STEEL": 39,
     "レジェンドスター": 14
   },
-  "total": 1932,
+  "total": 1938,
   "items": [
     {
       "id": "5128|8652",
@@ -519,6 +519,22 @@
       "url": "http://r1b.jp/item.php?prc=detail&cmd=confirm&sid=5158|8725"
     },
     {
+      "id": "5232|8843",
+      "name": "トランスフォーム・パール",
+      "brand": "Roto Grip",
+      "brand_id": 17,
+      "maker": "HI-SP",
+      "maker_id": 3,
+      "category_id": 1,
+      "category": "ボール",
+      "category_key": "ball",
+      "image": "http://r1b.jp/img/image/item/pro_item_202607281627061241011494.jpg",
+      "member_price": 36729,
+      "list_price": 69300,
+      "discount_percent": 47,
+      "url": "http://r1b.jp/item.php?prc=detail&cmd=confirm&sid=5232|8843"
+    },
+    {
       "id": "5194|8790",
       "name": "フィジックス・ジェネシス（限定商品の為、返品不可）",
       "brand": "Storm",
@@ -549,6 +565,22 @@
       "list_price": 69300,
       "discount_percent": 47,
       "url": "http://r1b.jp/item.php?prc=detail&cmd=confirm&sid=5177|8756"
+    },
+    {
+      "id": "5233|8844",
+      "name": "ヴァーチャルグラビティ・ブレイズ",
+      "brand": "Storm",
+      "brand_id": 16,
+      "maker": "HI-SP",
+      "maker_id": 3,
+      "category_id": 1,
+      "category": "ボール",
+      "category_key": "ball",
+      "image": "http://r1b.jp/img/image/item/pro_item_20260728162741118488195.jpg",
+      "member_price": 36729,
+      "list_price": 69300,
+      "discount_percent": 47,
+      "url": "http://r1b.jp/item.php?prc=detail&cmd=confirm&sid=5233|8844"
     },
     {
       "id": "5047|8529",
@@ -1575,6 +1607,22 @@
       "url": "http://r1b.jp/item.php?prc=detail&cmd=confirm&sid=5118|8642"
     },
     {
+      "id": "5234|8845",
+      "name": "ディープオーシャン・バイブ™（※限定品のため返品不可)",
+      "brand": "Hammer",
+      "brand_id": 36,
+      "maker": "サンブリッジ",
+      "maker_id": 1,
+      "category_id": 1,
+      "category": "ボール",
+      "category_key": "ball",
+      "image": "http://r1b.jp/img/image/item/pro_item_202607291012481879782947.png",
+      "member_price": 30925,
+      "list_price": null,
+      "discount_percent": null,
+      "url": "http://r1b.jp/item.php?prc=detail&cmd=confirm&sid=5234|8845"
+    },
+    {
       "id": "5173|8744",
       "name": "リベンジ・ソリッド™",
       "brand": "Radical",
@@ -1733,6 +1781,22 @@
       "list_price": 53900,
       "discount_percent": 47,
       "url": "http://r1b.jp/item.php?prc=detail&cmd=confirm&sid=5211|8814"
+    },
+    {
+      "id": "5230|8841",
+      "name": "ピッチブラック78/U",
+      "brand": "Storm",
+      "brand_id": 16,
+      "maker": "HI-SP",
+      "maker_id": 3,
+      "category_id": 1,
+      "category": "ボール",
+      "category_key": "ball",
+      "image": "http://r1b.jp/img/image/item/pro_item_202607281634021326138754.jpg",
+      "member_price": 28567,
+      "list_price": 53900,
+      "discount_percent": 47,
+      "url": "http://r1b.jp/item.php?prc=detail&cmd=confirm&sid=5230|8841"
     },
     {
       "id": "4376|7460",
@@ -2071,6 +2135,22 @@
       "url": "http://r1b.jp/item.php?prc=detail&cmd=confirm&sid=4747|8166"
     },
     {
+      "id": "5231|8842",
+      "name": "ハッスル VP",
+      "brand": "Roto Grip",
+      "brand_id": 17,
+      "maker": "HI-SP",
+      "maker_id": 3,
+      "category_id": 1,
+      "category": "ボール",
+      "category_key": "ball",
+      "image": "http://r1b.jp/img/image/item/pro_item_20260728162600143457535.jpg",
+      "member_price": 22154,
+      "list_price": 41800,
+      "discount_percent": 47,
+      "url": "http://r1b.jp/item.php?prc=detail&cmd=confirm&sid=5231|8842"
+    },
+    {
       "id": "5206|8802",
       "name": "ハッスル・エスオーエス",
       "brand": "Roto Grip",
@@ -2080,7 +2160,7 @@
       "category_id": 1,
       "category": "ボール",
       "category_key": "ball",
-      "image": "http://r1b.jp/img/image/item/pro_item_20260624234957764172379.jpg",
+      "image": "http://r1b.jp/img/image/item/pro_item_202607281630271450492934.jpg",
       "member_price": 22154,
       "list_price": 41800,
       "discount_percent": 47,
@@ -2800,7 +2880,7 @@
       "category_id": 2,
       "category": "シューズ",
       "category_key": "shoes",
-      "image": "http://r1b.jp/img/image/item/pro_item_20260707121421161171489.jpg",
+      "image": "http://r1b.jp/img/image/item/pro_item_20260729102120573228499.jpg",
       "member_price": 31350,
       "list_price": 55000,
       "discount_percent": 43,
@@ -2887,22 +2967,6 @@
       "url": "http://r1b.jp/item.php?prc=detail&cmd=confirm&sid=5058|8547"
     },
     {
-      "id": "4870|8298",
-      "name": "SST8・パワーフレーム・BOA",
-      "brand": "Dexter",
-      "brand_id": 6,
-      "maker": "サンブリッジ",
-      "maker_id": 1,
-      "category_id": 2,
-      "category": "シューズ",
-      "category_key": "shoes",
-      "image": "http://r1b.jp/img/image/item/pro_item_20260707121624318247796.jpg",
-      "member_price": 28842,
-      "list_price": 50600,
-      "discount_percent": 43,
-      "url": "http://r1b.jp/item.php?prc=detail&cmd=confirm&sid=4870|8298"
-    },
-    {
       "id": "4943|8392",
       "name": "SST8・パワーフレーム・BOA",
       "brand": "Dexter",
@@ -2917,6 +2981,22 @@
       "list_price": 50600,
       "discount_percent": 43,
       "url": "http://r1b.jp/item.php?prc=detail&cmd=confirm&sid=4943|8392"
+    },
+    {
+      "id": "4870|8298",
+      "name": "SST8・パワーフレーム・BOA",
+      "brand": "Dexter",
+      "brand_id": 6,
+      "maker": "サンブリッジ",
+      "maker_id": 1,
+      "category_id": 2,
+      "category": "シューズ",
+      "category_key": "shoes",
+      "image": "http://r1b.jp/img/image/item/pro_item_20260707121624318247796.jpg",
+      "member_price": 28842,
+      "list_price": 50600,
+      "discount_percent": 43,
+      "url": "http://r1b.jp/item.php?prc=detail&cmd=confirm&sid=4870|8298"
     },
     {
       "id": "4460|7704",
@@ -13605,6 +13685,22 @@
       "list_price": 15180,
       "discount_percent": 35,
       "url": "http://r1b.jp/item.php?prc=detail&cmd=confirm&sid=4189|7229"
+    },
+    {
+      "id": "3557|6224",
+      "name": "BP048",
+      "brand": "B+",
+      "brand_id": 7,
+      "maker": "サンブリッジ",
+      "maker_id": 1,
+      "category_id": 4,
+      "category": "ウェア",
+      "category_key": "ware",
+      "image": "http://r1b.jp/img/image/item/pro_item_202301271750491899000969.jpg",
+      "member_price": 9867,
+      "list_price": 15180,
+      "discount_percent": 35,
+      "url": "http://r1b.jp/item.php?prc=detail&cmd=confirm&sid=3557|6224"
     },
     {
       "id": "3845|6662",
