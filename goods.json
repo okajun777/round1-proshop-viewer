@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-08-02T22:04:06+00:00",
+  "fetched_at": "2026-08-03T22:16:31+00:00",
   "source": "http://r1b.jp",
   "categories": [
     {
@@ -310,7 +310,7 @@
     }
   ],
   "counts": {
-    "ボール": 144,
+    "ボール": 147,
     "シューズ": 124,
     "バッグ": 93,
     "ウェア": 1180,
@@ -320,7 +320,7 @@
     "その他": 151
   },
   "brand_counts": {
-    "Pro-Am": 695,
+    "Pro-Am": 696,
     "ABS": 557,
     "HI-SP": 130,
     "Wave": 85,
@@ -328,10 +328,10 @@
     "Dexter": 60,
     "Roto Grip": 39,
     "Steel": 39,
-    "Motiv": 36,
+    "Motiv": 37,
     "Brunswick": 34,
+    "900 Global": 21,
     "Mechatecter": 21,
-    "900 Global": 20,
     "Nanodesu": 15,
     "Vise": 15,
     "B+": 14,
@@ -349,14 +349,14 @@
     "Hammy's": 1
   },
   "maker_counts": {
-    "ABS": 1323,
+    "ABS": 1326,
     "HI-SP": 264,
     "サンブリッジ": 173,
     "ARK": 117,
     "STEEL": 39,
     "レジェンドスター": 14
   },
-  "total": 1930,
+  "total": 1933,
   "items": [
     {
       "id": "5128|8652",
@@ -373,6 +373,22 @@
       "list_price": 77000,
       "discount_percent": 47,
       "url": "http://r1b.jp/item.php?prc=detail&cmd=confirm&sid=5128|8652"
+    },
+    {
+      "id": "5235|8846",
+      "name": "SIGMA TOUR PEARL",
+      "brand": "Motiv",
+      "brand_id": 11,
+      "maker": "ABS",
+      "maker_id": 2,
+      "category_id": 1,
+      "category": "ボール",
+      "category_key": "ball",
+      "image": "http://r1b.jp/img/image/item/pro_item_202607312143241283211548.png",
+      "member_price": 40040,
+      "list_price": 71500,
+      "discount_percent": 44,
+      "url": "http://r1b.jp/item.php?prc=detail&cmd=confirm&sid=5235|8846"
     },
     {
       "id": "4676|8073",
@@ -1093,6 +1109,22 @@
       "list_price": null,
       "discount_percent": null,
       "url": "http://r1b.jp/item.php?prc=detail&cmd=confirm&sid=5184|8763"
+    },
+    {
+      "id": "5237|8848",
+      "name": "VENGEANCE RETURNS",
+      "brand": "900 Global",
+      "brand_id": 15,
+      "maker": "ABS",
+      "maker_id": 2,
+      "category_id": 1,
+      "category": "ボール",
+      "category_key": "ball",
+      "image": "http://r1b.jp/img/image/item/pro_item_20260731215738358915478.png",
+      "member_price": 33814,
+      "list_price": 63800,
+      "discount_percent": 47,
+      "url": "http://r1b.jp/item.php?prc=detail&cmd=confirm&sid=5237|8848"
     },
     {
       "id": "5110|8634",
@@ -1973,6 +2005,22 @@
       "list_price": 59400,
       "discount_percent": 59,
       "url": "http://r1b.jp/item.php?prc=detail&cmd=confirm&sid=4896|8325"
+    },
+    {
+      "id": "5236|8847",
+      "name": "SPEED STRIKER HYBRID",
+      "brand": "Pro-Am",
+      "brand_id": 14,
+      "maker": "ABS",
+      "maker_id": 2,
+      "category_id": 1,
+      "category": "ボール",
+      "category_key": "ball",
+      "image": "http://r1b.jp/img/image/item/pro_item_202607312150102036827831.png",
+      "member_price": 23100,
+      "list_price": 46200,
+      "discount_percent": 50,
+      "url": "http://r1b.jp/item.php?prc=detail&cmd=confirm&sid=5236|8847"
     },
     {
       "id": "4746|8165",
@@ -2967,22 +3015,6 @@
       "url": "http://r1b.jp/item.php?prc=detail&cmd=confirm&sid=5042|8521"
     },
     {
-      "id": "5229|8839",
-      "name": "ABS CLASSIC AKI NAWA MODEL 左右兼用「限定商品の為、返品不可」",
-      "brand": "ABS",
-      "brand_id": 10,
-      "maker": "ABS",
-      "maker_id": 2,
-      "category_id": 2,
-      "category": "シューズ",
-      "category_key": "shoes",
-      "image": "http://r1b.jp/img/image/item/pro_item_202607151849322098754197.png",
-      "member_price": 26125,
-      "list_price": 27500,
-      "discount_percent": 5,
-      "url": "http://r1b.jp/item.php?prc=detail&cmd=confirm&sid=5229|8839"
-    },
-    {
       "id": "5228|8838",
       "name": "ABS CLASSIC AKI NAWA MODEL 左右兼用「限定商品の為、返品不可」",
       "brand": "ABS",
@@ -2997,6 +3029,22 @@
       "list_price": 27500,
       "discount_percent": 5,
       "url": "http://r1b.jp/item.php?prc=detail&cmd=confirm&sid=5228|8838"
+    },
+    {
+      "id": "5229|8839",
+      "name": "ABS CLASSIC AKI NAWA MODEL 左右兼用「限定商品の為、返品不可」",
+      "brand": "ABS",
+      "brand_id": 10,
+      "maker": "ABS",
+      "maker_id": 2,
+      "category_id": 2,
+      "category": "シューズ",
+      "category_key": "shoes",
+      "image": "http://r1b.jp/img/image/item/pro_item_202607151849322098754197.png",
+      "member_price": 26125,
+      "list_price": 27500,
+      "discount_percent": 5,
+      "url": "http://r1b.jp/item.php?prc=detail&cmd=confirm&sid=5229|8839"
     },
     {
       "id": "4070|7050",
@@ -13543,22 +13591,6 @@
       "url": "http://r1b.jp/item.php?prc=detail&cmd=confirm&sid=4188|7226"
     },
     {
-      "id": "4189|7229",
-      "name": "BP048",
-      "brand": "B+",
-      "brand_id": 7,
-      "maker": "サンブリッジ",
-      "maker_id": 1,
-      "category_id": 4,
-      "category": "ウェア",
-      "category_key": "ware",
-      "image": "http://r1b.jp/img/image/item/pro_item_20231102080725380136791.jpg",
-      "member_price": 9867,
-      "list_price": 15180,
-      "discount_percent": 35,
-      "url": "http://r1b.jp/item.php?prc=detail&cmd=confirm&sid=4189|7229"
-    },
-    {
       "id": "3557|6224",
       "name": "BP048",
       "brand": "B+",
@@ -13573,6 +13605,22 @@
       "list_price": 15180,
       "discount_percent": 35,
       "url": "http://r1b.jp/item.php?prc=detail&cmd=confirm&sid=3557|6224"
+    },
+    {
+      "id": "4189|7229",
+      "name": "BP048",
+      "brand": "B+",
+      "brand_id": 7,
+      "maker": "サンブリッジ",
+      "maker_id": 1,
+      "category_id": 4,
+      "category": "ウェア",
+      "category_key": "ware",
+      "image": "http://r1b.jp/img/image/item/pro_item_20231102080725380136791.jpg",
+      "member_price": 9867,
+      "list_price": 15180,
+      "discount_percent": 35,
+      "url": "http://r1b.jp/item.php?prc=detail&cmd=confirm&sid=4189|7229"
     },
     {
       "id": "3845|6662",
