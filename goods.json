@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-08-05T22:19:34+00:00",
+  "fetched_at": "2026-08-07T01:07:28+00:00",
   "source": "http://r1b.jp",
   "categories": [
     {
@@ -2919,22 +2919,6 @@
       "url": "http://r1b.jp/item.php?prc=detail&cmd=confirm&sid=5058|8547"
     },
     {
-      "id": "4870|8298",
-      "name": "SST8・パワーフレーム・BOA",
-      "brand": "Dexter",
-      "brand_id": 6,
-      "maker": "サンブリッジ",
-      "maker_id": 1,
-      "category_id": 2,
-      "category": "シューズ",
-      "category_key": "shoes",
-      "image": "http://r1b.jp/img/image/item/pro_item_20260707121624318247796.jpg",
-      "member_price": 28842,
-      "list_price": 50600,
-      "discount_percent": 43,
-      "url": "http://r1b.jp/item.php?prc=detail&cmd=confirm&sid=4870|8298"
-    },
-    {
       "id": "4943|8392",
       "name": "SST8・パワーフレーム・BOA",
       "brand": "Dexter",
@@ -2949,6 +2933,22 @@
       "list_price": 50600,
       "discount_percent": 43,
       "url": "http://r1b.jp/item.php?prc=detail&cmd=confirm&sid=4943|8392"
+    },
+    {
+      "id": "4870|8298",
+      "name": "SST8・パワーフレーム・BOA",
+      "brand": "Dexter",
+      "brand_id": 6,
+      "maker": "サンブリッジ",
+      "maker_id": 1,
+      "category_id": 2,
+      "category": "シューズ",
+      "category_key": "shoes",
+      "image": "http://r1b.jp/img/image/item/pro_item_20260707121624318247796.jpg",
+      "member_price": 28842,
+      "list_price": 50600,
+      "discount_percent": 43,
+      "url": "http://r1b.jp/item.php?prc=detail&cmd=confirm&sid=4870|8298"
     },
     {
       "id": "4460|7704",
@@ -3015,22 +3015,6 @@
       "url": "http://r1b.jp/item.php?prc=detail&cmd=confirm&sid=5042|8521"
     },
     {
-      "id": "5228|8838",
-      "name": "ABS CLASSIC AKI NAWA MODEL 左右兼用「限定商品の為、返品不可」",
-      "brand": "ABS",
-      "brand_id": 10,
-      "maker": "ABS",
-      "maker_id": 2,
-      "category_id": 2,
-      "category": "シューズ",
-      "category_key": "shoes",
-      "image": "http://r1b.jp/img/image/item/pro_item_202607151840391412222948.png",
-      "member_price": 26125,
-      "list_price": 27500,
-      "discount_percent": 5,
-      "url": "http://r1b.jp/item.php?prc=detail&cmd=confirm&sid=5228|8838"
-    },
-    {
       "id": "5229|8839",
       "name": "ABS CLASSIC AKI NAWA MODEL 左右兼用「限定商品の為、返品不可」",
       "brand": "ABS",
@@ -3045,6 +3029,22 @@
       "list_price": 27500,
       "discount_percent": 5,
       "url": "http://r1b.jp/item.php?prc=detail&cmd=confirm&sid=5229|8839"
+    },
+    {
+      "id": "5228|8838",
+      "name": "ABS CLASSIC AKI NAWA MODEL 左右兼用「限定商品の為、返品不可」",
+      "brand": "ABS",
+      "brand_id": 10,
+      "maker": "ABS",
+      "maker_id": 2,
+      "category_id": 2,
+      "category": "シューズ",
+      "category_key": "shoes",
+      "image": "http://r1b.jp/img/image/item/pro_item_202607151840391412222948.png",
+      "member_price": 26125,
+      "list_price": 27500,
+      "discount_percent": 5,
+      "url": "http://r1b.jp/item.php?prc=detail&cmd=confirm&sid=5228|8838"
     },
     {
       "id": "4070|7050",
@@ -13591,7 +13591,7 @@
       "url": "http://r1b.jp/item.php?prc=detail&cmd=confirm&sid=4188|7226"
     },
     {
-      "id": "3557|6224",
+      "id": "4189|7229",
       "name": "BP048",
       "brand": "B+",
       "brand_id": 7,
@@ -13600,11 +13600,11 @@
       "category_id": 4,
       "category": "ウェア",
       "category_key": "ware",
-      "image": "http://r1b.jp/img/image/item/pro_item_202301271750491899000969.jpg",
+      "image": "http://r1b.jp/img/image/item/pro_item_20231102080725380136791.jpg",
       "member_price": 9867,
       "list_price": 15180,
       "discount_percent": 35,
-      "url": "http://r1b.jp/item.php?prc=detail&cmd=confirm&sid=3557|6224"
+      "url": "http://r1b.jp/item.php?prc=detail&cmd=confirm&sid=4189|7229"
     },
     {
       "id": "3845|6662",
