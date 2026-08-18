@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-08-17T21:33:48+00:00",
+  "fetched_at": "2026-08-18T21:30:20+00:00",
   "source": "http://r1b.jp",
   "categories": [
     {
@@ -2791,22 +2791,6 @@
       "url": "http://r1b.jp/item.php?prc=detail&cmd=confirm&sid=4072|7052"
     },
     {
-      "id": "5226|8833",
-      "name": "SST X",
-      "brand": "Dexter",
-      "brand_id": 6,
-      "maker": "サンブリッジ",
-      "maker_id": 1,
-      "category_id": 2,
-      "category": "シューズ",
-      "category_key": "shoes",
-      "image": "http://r1b.jp/img/image/item/pro_item_20260707120231743523580.jpg",
-      "member_price": 31350,
-      "list_price": 55000,
-      "discount_percent": 43,
-      "url": "http://r1b.jp/item.php?prc=detail&cmd=confirm&sid=5226|8833"
-    },
-    {
       "id": "5225|8832",
       "name": "SST X",
       "brand": "Dexter",
@@ -2821,6 +2805,22 @@
       "list_price": 55000,
       "discount_percent": 43,
       "url": "http://r1b.jp/item.php?prc=detail&cmd=confirm&sid=5225|8832"
+    },
+    {
+      "id": "5226|8833",
+      "name": "SST X",
+      "brand": "Dexter",
+      "brand_id": 6,
+      "maker": "サンブリッジ",
+      "maker_id": 1,
+      "category_id": 2,
+      "category": "シューズ",
+      "category_key": "shoes",
+      "image": "http://r1b.jp/img/image/item/pro_item_20260707120231743523580.jpg",
+      "member_price": 31350,
+      "list_price": 55000,
+      "discount_percent": 43,
+      "url": "http://r1b.jp/item.php?prc=detail&cmd=confirm&sid=5226|8833"
     },
     {
       "id": "5057|8546",
@@ -28295,22 +28295,6 @@
       "url": "http://r1b.jp/item.php?prc=detail&cmd=confirm&sid=5142|8696"
     },
     {
-      "id": "1291|2585",
-      "name": "シャミー",
-      "brand": "Storm",
-      "brand_id": 16,
-      "maker": "HI-SP",
-      "maker_id": 3,
-      "category_id": 7,
-      "category": "クリーナー",
-      "category_key": "cleaner",
-      "image": "http://r1b.jp/img/image/item/pro_item_202410291541581430832217.jpg",
-      "member_price": 2238,
-      "list_price": 4070,
-      "discount_percent": 45,
-      "url": "http://r1b.jp/item.php?prc=detail&cmd=confirm&sid=1291|2585"
-    },
-    {
       "id": "1292|2588",
       "name": "シャミー",
       "brand": "Roto Grip",
@@ -28325,6 +28309,22 @@
       "list_price": 4070,
       "discount_percent": 45,
       "url": "http://r1b.jp/item.php?prc=detail&cmd=confirm&sid=1292|2588"
+    },
+    {
+      "id": "1291|2585",
+      "name": "シャミー",
+      "brand": "Storm",
+      "brand_id": 16,
+      "maker": "HI-SP",
+      "maker_id": 3,
+      "category_id": 7,
+      "category": "クリーナー",
+      "category_key": "cleaner",
+      "image": "http://r1b.jp/img/image/item/pro_item_202410291541581430832217.jpg",
+      "member_price": 2238,
+      "list_price": 4070,
+      "discount_percent": 45,
+      "url": "http://r1b.jp/item.php?prc=detail&cmd=confirm&sid=1291|2585"
     },
     {
       "id": "1537|2986",
