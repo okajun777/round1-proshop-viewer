@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-08-23T21:28:12+00:00",
+  "fetched_at": "2026-08-24T21:36:20+00:00",
   "source": "http://r1b.jp",
   "categories": [
     {
@@ -312,8 +312,8 @@
   "counts": {
     "ボール": 149,
     "シューズ": 122,
-    "バッグ": 97,
-    "ウェア": 1179,
+    "バッグ": 98,
+    "ウェア": 1183,
     "グローブ": 67,
     "テープ": 126,
     "クリーナー": 45,
@@ -322,20 +322,20 @@
   "brand_counts": {
     "Pro-Am": 695,
     "ABS": 556,
-    "HI-SP": 128,
+    "HI-SP": 129,
     "Wave": 85,
-    "Storm": 80,
+    "Storm": 82,
     "Dexter": 60,
     "Motiv": 44,
     "Steel": 39,
-    "Roto Grip": 37,
+    "Roto Grip": 38,
     "Brunswick": 36,
     "900 Global": 21,
     "Mechatecter": 21,
     "Nanodesu": 15,
     "Vise": 15,
+    "B+": 14,
     "Sunbridge": 14,
-    "B+": 13,
     "DV8": 12,
     "Legend Star": 11,
     "その他": 11,
@@ -350,13 +350,13 @@
   },
   "maker_counts": {
     "ABS": 1331,
-    "HI-SP": 256,
-    "サンブリッジ": 179,
+    "HI-SP": 260,
+    "サンブリッジ": 180,
     "ARK": 117,
     "STEEL": 39,
     "レジェンドスター": 14
   },
-  "total": 1936,
+  "total": 1941,
   "items": [
     {
       "id": "5128|8652",
@@ -2951,22 +2951,6 @@
       "url": "http://r1b.jp/item.php?prc=detail&cmd=confirm&sid=5058|8547"
     },
     {
-      "id": "4943|8392",
-      "name": "SST8・パワーフレーム・BOA",
-      "brand": "Dexter",
-      "brand_id": 6,
-      "maker": "サンブリッジ",
-      "maker_id": 1,
-      "category_id": 2,
-      "category": "シューズ",
-      "category_key": "shoes",
-      "image": "http://r1b.jp/img/image/item/pro_item_202509022152231614911694.jpg",
-      "member_price": 28842,
-      "list_price": 50600,
-      "discount_percent": 43,
-      "url": "http://r1b.jp/item.php?prc=detail&cmd=confirm&sid=4943|8392"
-    },
-    {
       "id": "4870|8298",
       "name": "SST8・パワーフレーム・BOA",
       "brand": "Dexter",
@@ -2981,6 +2965,22 @@
       "list_price": 50600,
       "discount_percent": 43,
       "url": "http://r1b.jp/item.php?prc=detail&cmd=confirm&sid=4870|8298"
+    },
+    {
+      "id": "4943|8392",
+      "name": "SST8・パワーフレーム・BOA",
+      "brand": "Dexter",
+      "brand_id": 6,
+      "maker": "サンブリッジ",
+      "maker_id": 1,
+      "category_id": 2,
+      "category": "シューズ",
+      "category_key": "shoes",
+      "image": "http://r1b.jp/img/image/item/pro_item_202509022152231614911694.jpg",
+      "member_price": 28842,
+      "list_price": 50600,
+      "discount_percent": 43,
+      "url": "http://r1b.jp/item.php?prc=detail&cmd=confirm&sid=4943|8392"
     },
     {
       "id": "4460|7704",
@@ -5093,6 +5093,22 @@
       "list_price": 24200,
       "discount_percent": 40,
       "url": "http://r1b.jp/item.php?prc=detail&cmd=confirm&sid=4941|8388"
+    },
+    {
+      "id": "5257|8881",
+      "name": "HSR215-FA　2ボールローラーバッグ",
+      "brand": "Storm",
+      "brand_id": 16,
+      "maker": "HI-SP",
+      "maker_id": 3,
+      "category_id": 3,
+      "category": "バッグ",
+      "category_key": "bag",
+      "image": "http://r1b.jp/img/image/item/pro_item_202608211202351142673886.jpg",
+      "member_price": 14190,
+      "list_price": 23650,
+      "discount_percent": 40,
+      "url": "http://r1b.jp/item.php?prc=detail&cmd=confirm&sid=5257|8881"
     },
     {
       "id": "5069|8591",
@@ -13671,6 +13687,22 @@
       "url": "http://r1b.jp/item.php?prc=detail&cmd=confirm&sid=3557|6224"
     },
     {
+      "id": "4189|7229",
+      "name": "BP048",
+      "brand": "B+",
+      "brand_id": 7,
+      "maker": "サンブリッジ",
+      "maker_id": 1,
+      "category_id": 4,
+      "category": "ウェア",
+      "category_key": "ware",
+      "image": "http://r1b.jp/img/image/item/pro_item_20231102080725380136791.jpg",
+      "member_price": 9867,
+      "list_price": 15180,
+      "discount_percent": 35,
+      "url": "http://r1b.jp/item.php?prc=detail&cmd=confirm&sid=4189|7229"
+    },
+    {
       "id": "3845|6662",
       "name": "BP049",
       "brand": "B+",
@@ -14805,6 +14837,54 @@
       "list_price": null,
       "discount_percent": null,
       "url": "http://r1b.jp/item.php?prc=detail&cmd=confirm&sid=5213|8816"
+    },
+    {
+      "id": "5254|8878",
+      "name": "HS-01169 STメテオライトV(OR)",
+      "brand": "Storm",
+      "brand_id": 16,
+      "maker": "HI-SP",
+      "maker_id": 3,
+      "category_id": 4,
+      "category": "ウェア",
+      "category_key": "ware",
+      "image": "http://r1b.jp/img/image/item/pro_item_20260820132155798524013.jpg",
+      "member_price": 9317,
+      "list_price": null,
+      "discount_percent": null,
+      "url": "http://r1b.jp/item.php?prc=detail&cmd=confirm&sid=5254|8878"
+    },
+    {
+      "id": "5255|8879",
+      "name": "HS-01170 RGイラプションV(BU)",
+      "brand": "Roto Grip",
+      "brand_id": 17,
+      "maker": "HI-SP",
+      "maker_id": 3,
+      "category_id": 4,
+      "category": "ウェア",
+      "category_key": "ware",
+      "image": "http://r1b.jp/img/image/item/pro_item_202608201322571380072717.jpg",
+      "member_price": 9317,
+      "list_price": null,
+      "discount_percent": null,
+      "url": "http://r1b.jp/item.php?prc=detail&cmd=confirm&sid=5255|8879"
+    },
+    {
+      "id": "5256|8880",
+      "name": "HS-01171 HSボンファイアV(GY)",
+      "brand": "HI-SP",
+      "brand_id": 18,
+      "maker": "HI-SP",
+      "maker_id": 3,
+      "category_id": 4,
+      "category": "ウェア",
+      "category_key": "ware",
+      "image": "http://r1b.jp/img/image/item/pro_item_202608201323481837674604.jpg",
+      "member_price": 9317,
+      "list_price": null,
+      "discount_percent": null,
+      "url": "http://r1b.jp/item.php?prc=detail&cmd=confirm&sid=5256|8880"
     },
     {
       "id": "3757|6482",
@@ -28279,22 +28359,6 @@
       "url": "http://r1b.jp/item.php?prc=detail&cmd=confirm&sid=5142|8696"
     },
     {
-      "id": "1291|2585",
-      "name": "シャミー",
-      "brand": "Storm",
-      "brand_id": 16,
-      "maker": "HI-SP",
-      "maker_id": 3,
-      "category_id": 7,
-      "category": "クリーナー",
-      "category_key": "cleaner",
-      "image": "http://r1b.jp/img/image/item/pro_item_202410291541581430832217.jpg",
-      "member_price": 2238,
-      "list_price": 4070,
-      "discount_percent": 45,
-      "url": "http://r1b.jp/item.php?prc=detail&cmd=confirm&sid=1291|2585"
-    },
-    {
       "id": "1292|2588",
       "name": "シャミー",
       "brand": "Roto Grip",
@@ -28309,6 +28373,22 @@
       "list_price": 4070,
       "discount_percent": 45,
       "url": "http://r1b.jp/item.php?prc=detail&cmd=confirm&sid=1292|2588"
+    },
+    {
+      "id": "1291|2585",
+      "name": "シャミー",
+      "brand": "Storm",
+      "brand_id": 16,
+      "maker": "HI-SP",
+      "maker_id": 3,
+      "category_id": 7,
+      "category": "クリーナー",
+      "category_key": "cleaner",
+      "image": "http://r1b.jp/img/image/item/pro_item_202410291541581430832217.jpg",
+      "member_price": 2238,
+      "list_price": 4070,
+      "discount_percent": 45,
+      "url": "http://r1b.jp/item.php?prc=detail&cmd=confirm&sid=1291|2585"
     },
     {
       "id": "1537|2986",
