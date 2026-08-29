@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-08-28T05:13:32+00:00",
+  "fetched_at": "2026-08-29T03:10:52+00:00",
   "source": "http://r1b.jp",
   "categories": [
     {
@@ -1232,7 +1232,7 @@
       "category_id": 1,
       "category": "ボール",
       "category_key": "ball",
-      "image": "http://r1b.jp/img/image/item/pro_item_202604081633291383766749.png",
+      "image": "http://r1b.jp/img/image/item/pro_item_20260826163502139562386.png",
       "member_price": 33313,
       "list_price": null,
       "discount_percent": null,
@@ -1408,7 +1408,7 @@
       "category_id": 1,
       "category": "ボール",
       "category_key": "ball",
-      "image": "http://r1b.jp/img/image/item/pro_item_20260203152644142005515.png",
+      "image": "http://r1b.jp/img/image/item/pro_item_202608261631411827764341.png",
       "member_price": 32056,
       "list_price": null,
       "discount_percent": null,
@@ -1424,7 +1424,7 @@
       "category_id": 1,
       "category": "ボール",
       "category_key": "ball",
-      "image": "http://r1b.jp/img/image/item/pro_item_202604290407421099395913.png",
+      "image": "http://r1b.jp/img/image/item/pro_item_202608261639361183785160.png",
       "member_price": 32056,
       "list_price": null,
       "discount_percent": null,
@@ -1552,7 +1552,7 @@
       "category_id": 1,
       "category": "ボール",
       "category_key": "ball",
-      "image": "http://r1b.jp/img/image/item/pro_item_202511051130101160918287.png",
+      "image": "http://r1b.jp/img/image/item/pro_item_20260826162923494802607.png",
       "member_price": 31428,
       "list_price": null,
       "discount_percent": null,
@@ -13671,22 +13671,6 @@
       "url": "http://r1b.jp/item.php?prc=detail&cmd=confirm&sid=4188|7226"
     },
     {
-      "id": "3557|6224",
-      "name": "BP048",
-      "brand": "B+",
-      "brand_id": 7,
-      "maker": "サンブリッジ",
-      "maker_id": 1,
-      "category_id": 4,
-      "category": "ウェア",
-      "category_key": "ware",
-      "image": "http://r1b.jp/img/image/item/pro_item_202301271750491899000969.jpg",
-      "member_price": 9867,
-      "list_price": 15180,
-      "discount_percent": 35,
-      "url": "http://r1b.jp/item.php?prc=detail&cmd=confirm&sid=3557|6224"
-    },
-    {
       "id": "4189|7229",
       "name": "BP048",
       "brand": "B+",
@@ -13701,6 +13685,22 @@
       "list_price": 15180,
       "discount_percent": 35,
       "url": "http://r1b.jp/item.php?prc=detail&cmd=confirm&sid=4189|7229"
+    },
+    {
+      "id": "3557|6224",
+      "name": "BP048",
+      "brand": "B+",
+      "brand_id": 7,
+      "maker": "サンブリッジ",
+      "maker_id": 1,
+      "category_id": 4,
+      "category": "ウェア",
+      "category_key": "ware",
+      "image": "http://r1b.jp/img/image/item/pro_item_202301271750491899000969.jpg",
+      "member_price": 9867,
+      "list_price": 15180,
+      "discount_percent": 35,
+      "url": "http://r1b.jp/item.php?prc=detail&cmd=confirm&sid=3557|6224"
     },
     {
       "id": "3845|6662",
