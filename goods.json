@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-09-01T23:10:19+00:00",
+  "fetched_at": "2026-09-02T23:07:31+00:00",
   "source": "http://r1b.jp",
   "categories": [
     {
@@ -313,7 +313,7 @@
     "ボール": 145,
     "シューズ": 120,
     "バッグ": 95,
-    "ウェア": 1183,
+    "ウェア": 1182,
     "グローブ": 67,
     "テープ": 126,
     "クリーナー": 45,
@@ -334,8 +334,8 @@
     "Mechatecter": 21,
     "Nanodesu": 15,
     "Vise": 15,
-    "B+": 14,
     "Sunbridge": 14,
+    "B+": 13,
     "Legend Star": 11,
     "その他": 11,
     "Master": 10,
@@ -351,12 +351,12 @@
   "maker_counts": {
     "ABS": 1331,
     "HI-SP": 261,
-    "サンブリッジ": 170,
+    "サンブリッジ": 169,
     "ARK": 117,
     "STEEL": 39,
     "レジェンドスター": 14
   },
-  "total": 1932,
+  "total": 1931,
   "items": [
     {
       "id": "5261|8892",
@@ -2727,22 +2727,6 @@
       "url": "http://r1b.jp/item.php?prc=detail&cmd=confirm&sid=4072|7052"
     },
     {
-      "id": "5225|8832",
-      "name": "SST X",
-      "brand": "Dexter",
-      "brand_id": 6,
-      "maker": "サンブリッジ",
-      "maker_id": 1,
-      "category_id": 2,
-      "category": "シューズ",
-      "category_key": "shoes",
-      "image": "http://r1b.jp/img/image/item/pro_item_202607071149311664802079.jpg",
-      "member_price": 31350,
-      "list_price": 55000,
-      "discount_percent": 43,
-      "url": "http://r1b.jp/item.php?prc=detail&cmd=confirm&sid=5225|8832"
-    },
-    {
       "id": "5226|8833",
       "name": "SST X",
       "brand": "Dexter",
@@ -2757,6 +2741,22 @@
       "list_price": 55000,
       "discount_percent": 43,
       "url": "http://r1b.jp/item.php?prc=detail&cmd=confirm&sid=5226|8833"
+    },
+    {
+      "id": "5225|8832",
+      "name": "SST X",
+      "brand": "Dexter",
+      "brand_id": 6,
+      "maker": "サンブリッジ",
+      "maker_id": 1,
+      "category_id": 2,
+      "category": "シューズ",
+      "category_key": "shoes",
+      "image": "http://r1b.jp/img/image/item/pro_item_202607071149311664802079.jpg",
+      "member_price": 31350,
+      "list_price": 55000,
+      "discount_percent": 43,
+      "url": "http://r1b.jp/item.php?prc=detail&cmd=confirm&sid=5225|8832"
     },
     {
       "id": "5057|8546",
@@ -13541,22 +13541,6 @@
       "list_price": 15180,
       "discount_percent": 35,
       "url": "http://r1b.jp/item.php?prc=detail&cmd=confirm&sid=3557|6224"
-    },
-    {
-      "id": "4189|7229",
-      "name": "BP048",
-      "brand": "B+",
-      "brand_id": 7,
-      "maker": "サンブリッジ",
-      "maker_id": 1,
-      "category_id": 4,
-      "category": "ウェア",
-      "category_key": "ware",
-      "image": "http://r1b.jp/img/image/item/pro_item_20231102080725380136791.jpg",
-      "member_price": 9867,
-      "list_price": 15180,
-      "discount_percent": 35,
-      "url": "http://r1b.jp/item.php?prc=detail&cmd=confirm&sid=4189|7229"
     },
     {
       "id": "3845|6662",
@@ -28215,22 +28199,6 @@
       "url": "http://r1b.jp/item.php?prc=detail&cmd=confirm&sid=5142|8696"
     },
     {
-      "id": "1291|2585",
-      "name": "シャミー",
-      "brand": "Storm",
-      "brand_id": 16,
-      "maker": "HI-SP",
-      "maker_id": 3,
-      "category_id": 7,
-      "category": "クリーナー",
-      "category_key": "cleaner",
-      "image": "http://r1b.jp/img/image/item/pro_item_202410291541581430832217.jpg",
-      "member_price": 2238,
-      "list_price": 4070,
-      "discount_percent": 45,
-      "url": "http://r1b.jp/item.php?prc=detail&cmd=confirm&sid=1291|2585"
-    },
-    {
       "id": "1292|2588",
       "name": "シャミー",
       "brand": "Roto Grip",
@@ -28245,6 +28213,22 @@
       "list_price": 4070,
       "discount_percent": 45,
       "url": "http://r1b.jp/item.php?prc=detail&cmd=confirm&sid=1292|2588"
+    },
+    {
+      "id": "1291|2585",
+      "name": "シャミー",
+      "brand": "Storm",
+      "brand_id": 16,
+      "maker": "HI-SP",
+      "maker_id": 3,
+      "category_id": 7,
+      "category": "クリーナー",
+      "category_key": "cleaner",
+      "image": "http://r1b.jp/img/image/item/pro_item_202410291541581430832217.jpg",
+      "member_price": 2238,
+      "list_price": 4070,
+      "discount_percent": 45,
+      "url": "http://r1b.jp/item.php?prc=detail&cmd=confirm&sid=1291|2585"
     },
     {
       "id": "1537|2986",
