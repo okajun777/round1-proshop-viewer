@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-09-07T23:25:31+00:00",
+  "fetched_at": "2026-09-08T23:20:30+00:00",
   "source": "http://r1b.jp",
   "categories": [
     {
@@ -313,16 +313,16 @@
     "ボール": 145,
     "シューズ": 120,
     "バッグ": 95,
-    "ウェア": 1182,
-    "グローブ": 67,
+    "ウェア": 1183,
+    "グローブ": 75,
     "テープ": 126,
-    "クリーナー": 45,
+    "クリーナー": 46,
     "その他": 151
   },
   "brand_counts": {
     "Pro-Am": 696,
     "ABS": 554,
-    "HI-SP": 127,
+    "HI-SP": 136,
     "Wave": 85,
     "Storm": 84,
     "Dexter": 60,
@@ -334,8 +334,8 @@
     "Mechatecter": 21,
     "Nanodesu": 15,
     "Vise": 15,
+    "B+": 14,
     "Sunbridge": 14,
-    "B+": 13,
     "Legend Star": 11,
     "その他": 11,
     "Master": 10,
@@ -350,13 +350,13 @@
   },
   "maker_counts": {
     "ABS": 1331,
-    "HI-SP": 261,
-    "サンブリッジ": 169,
+    "HI-SP": 270,
+    "サンブリッジ": 170,
     "ARK": 117,
     "STEEL": 39,
     "レジェンドスター": 14
   },
-  "total": 1931,
+  "total": 1941,
   "items": [
     {
       "id": "5261|8892",
@@ -2887,22 +2887,6 @@
       "url": "http://r1b.jp/item.php?prc=detail&cmd=confirm&sid=5058|8547"
     },
     {
-      "id": "4943|8392",
-      "name": "SST8・パワーフレーム・BOA",
-      "brand": "Dexter",
-      "brand_id": 6,
-      "maker": "サンブリッジ",
-      "maker_id": 1,
-      "category_id": 2,
-      "category": "シューズ",
-      "category_key": "shoes",
-      "image": "http://r1b.jp/img/image/item/pro_item_202509022152231614911694.jpg",
-      "member_price": 28842,
-      "list_price": 50600,
-      "discount_percent": 43,
-      "url": "http://r1b.jp/item.php?prc=detail&cmd=confirm&sid=4943|8392"
-    },
-    {
       "id": "4870|8298",
       "name": "SST8・パワーフレーム・BOA",
       "brand": "Dexter",
@@ -2917,6 +2901,22 @@
       "list_price": 50600,
       "discount_percent": 43,
       "url": "http://r1b.jp/item.php?prc=detail&cmd=confirm&sid=4870|8298"
+    },
+    {
+      "id": "4943|8392",
+      "name": "SST8・パワーフレーム・BOA",
+      "brand": "Dexter",
+      "brand_id": 6,
+      "maker": "サンブリッジ",
+      "maker_id": 1,
+      "category_id": 2,
+      "category": "シューズ",
+      "category_key": "shoes",
+      "image": "http://r1b.jp/img/image/item/pro_item_202509022152231614911694.jpg",
+      "member_price": 28842,
+      "list_price": 50600,
+      "discount_percent": 43,
+      "url": "http://r1b.jp/item.php?prc=detail&cmd=confirm&sid=4943|8392"
     },
     {
       "id": "4460|7704",
@@ -13525,6 +13525,22 @@
       "list_price": 15180,
       "discount_percent": 35,
       "url": "http://r1b.jp/item.php?prc=detail&cmd=confirm&sid=4188|7226"
+    },
+    {
+      "id": "3557|6224",
+      "name": "BP048",
+      "brand": "B+",
+      "brand_id": 7,
+      "maker": "サンブリッジ",
+      "maker_id": 1,
+      "category_id": 4,
+      "category": "ウェア",
+      "category_key": "ware",
+      "image": "http://r1b.jp/img/image/item/pro_item_202301271750491899000969.jpg",
+      "member_price": 9867,
+      "list_price": 15180,
+      "discount_percent": 35,
+      "url": "http://r1b.jp/item.php?prc=detail&cmd=confirm&sid=3557|6224"
     },
     {
       "id": "4189|7229",
@@ -25719,6 +25735,54 @@
       "url": "http://r1b.jp/item.php?prc=detail&cmd=confirm&sid=377|800"
     },
     {
+      "id": "555|1184",
+      "name": "ＨＳＷ－３リスタイ",
+      "brand": "HI-SP",
+      "brand_id": 18,
+      "maker": "HI-SP",
+      "maker_id": 3,
+      "category_id": 5,
+      "category": "グローブ",
+      "category_key": "glove",
+      "image": "http://r1b.jp/img/image/item/pro_item_20260908154305847776893.jpg",
+      "member_price": 1512,
+      "list_price": 2750,
+      "discount_percent": 45,
+      "url": "http://r1b.jp/item.php?prc=detail&cmd=confirm&sid=555|1184"
+    },
+    {
+      "id": "560|1199",
+      "name": "ＨＳＧ－４グローブ",
+      "brand": "HI-SP",
+      "brand_id": 18,
+      "maker": "HI-SP",
+      "maker_id": 3,
+      "category_id": 5,
+      "category": "グローブ",
+      "category_key": "glove",
+      "image": "http://r1b.jp/img/image/item/pro_item_202609081548361726596701.jpg",
+      "member_price": 1452,
+      "list_price": 2640,
+      "discount_percent": 45,
+      "url": "http://r1b.jp/item.php?prc=detail&cmd=confirm&sid=560|1199"
+    },
+    {
+      "id": "554|1181",
+      "name": "ＨＳＷ－２ＤＸリスタイ",
+      "brand": "HI-SP",
+      "brand_id": 18,
+      "maker": "HI-SP",
+      "maker_id": 3,
+      "category_id": 5,
+      "category": "グローブ",
+      "category_key": "glove",
+      "image": "http://r1b.jp/img/image/item/pro_item_202609081540311706020097.jpg",
+      "member_price": 1452,
+      "list_price": 2640,
+      "discount_percent": 45,
+      "url": "http://r1b.jp/item.php?prc=detail&cmd=confirm&sid=554|1181"
+    },
+    {
       "id": "375|798",
       "name": "ロボリスト用パームベルト",
       "brand": "ABS",
@@ -25797,6 +25861,22 @@
       "list_price": 2310,
       "discount_percent": 40,
       "url": "http://r1b.jp/item.php?prc=detail&cmd=confirm&sid=391|843"
+    },
+    {
+      "id": "553|1178",
+      "name": "ＨＳＷ－２リスタイ",
+      "brand": "HI-SP",
+      "brand_id": 18,
+      "maker": "HI-SP",
+      "maker_id": 3,
+      "category_id": 5,
+      "category": "グローブ",
+      "category_key": "glove",
+      "image": "http://r1b.jp/img/image/item/pro_item_202609081539471683546522.jpg",
+      "member_price": 1331,
+      "list_price": 2420,
+      "discount_percent": 45,
+      "url": "http://r1b.jp/item.php?prc=detail&cmd=confirm&sid=553|1178"
     },
     {
       "id": "385|823",
@@ -25975,6 +26055,38 @@
       "url": "http://r1b.jp/item.php?prc=detail&cmd=confirm&sid=4508|7815"
     },
     {
+      "id": "556|1187",
+      "name": "ＨＳＷ－４リスタイ",
+      "brand": "HI-SP",
+      "brand_id": 18,
+      "maker": "HI-SP",
+      "maker_id": 3,
+      "category_id": 5,
+      "category": "グローブ",
+      "category_key": "glove",
+      "image": "http://r1b.jp/img/image/item/pro_item_20260908154418708878747.jpg",
+      "member_price": 907,
+      "list_price": 1650,
+      "discount_percent": 45,
+      "url": "http://r1b.jp/item.php?prc=detail&cmd=confirm&sid=556|1187"
+    },
+    {
+      "id": "557|1192",
+      "name": "ＨＳＷ－５リスタイ",
+      "brand": "HI-SP",
+      "brand_id": 18,
+      "maker": "HI-SP",
+      "maker_id": 3,
+      "category_id": 5,
+      "category": "グローブ",
+      "category_key": "glove",
+      "image": "http://r1b.jp/img/image/item/pro_item_20260908154515184215398.jpg",
+      "member_price": 907,
+      "list_price": 1650,
+      "discount_percent": 45,
+      "url": "http://r1b.jp/item.php?prc=detail&cmd=confirm&sid=557|1192"
+    },
+    {
       "id": "136|299",
       "name": "レインフォースベルト",
       "brand": "Mechatecter",
@@ -25989,6 +26101,22 @@
       "list_price": 1320,
       "discount_percent": 35,
       "url": "http://r1b.jp/item.php?prc=detail&cmd=confirm&sid=136|299"
+    },
+    {
+      "id": "558|1193",
+      "name": "ＨＳＧ－１グローブＮＥＷ",
+      "brand": "HI-SP",
+      "brand_id": 18,
+      "maker": "HI-SP",
+      "maker_id": 3,
+      "category_id": 5,
+      "category": "グローブ",
+      "category_key": "glove",
+      "image": "http://r1b.jp/img/image/item/pro_item_20260908154648153896356.jpg",
+      "member_price": 786,
+      "list_price": 1430,
+      "discount_percent": 45,
+      "url": "http://r1b.jp/item.php?prc=detail&cmd=confirm&sid=558|1193"
     },
     {
       "id": "1110|2310",
@@ -26021,6 +26149,22 @@
       "list_price": 1210,
       "discount_percent": 35,
       "url": "http://r1b.jp/item.php?prc=detail&cmd=confirm&sid=1111|2311"
+    },
+    {
+      "id": "559|1196",
+      "name": "ＨＳＧ－３グローブ",
+      "brand": "HI-SP",
+      "brand_id": 18,
+      "maker": "HI-SP",
+      "maker_id": 3,
+      "category_id": 5,
+      "category": "グローブ",
+      "category_key": "glove",
+      "image": "http://r1b.jp/img/image/item/pro_item_202609081547401050577659.jpg",
+      "member_price": 726,
+      "list_price": 1320,
+      "discount_percent": 45,
+      "url": "http://r1b.jp/item.php?prc=detail&cmd=confirm&sid=559|1196"
     },
     {
       "id": "1520|2947",
@@ -26096,7 +26240,7 @@
       "category_id": 5,
       "category": "グローブ",
       "category_key": "glove",
-      "image": "http://r1b.jp/img/image/item/pro_item_202410291540261959779159.jpg",
+      "image": "http://r1b.jp/img/image/item/pro_item_202609081551071458403093.jpg",
       "member_price": 592,
       "list_price": 1078,
       "discount_percent": 45,
@@ -28752,7 +28896,7 @@
       "category_id": 7,
       "category": "クリーナー",
       "category_key": "cleaner",
-      "image": "http://r1b.jp/img/image/item/pro_item_20210406142201618936006.jpg",
+      "image": "http://r1b.jp/img/image/item/pro_item_20260908160246817475003.jpg",
       "member_price": 594,
       "list_price": 990,
       "discount_percent": 40,
@@ -28821,6 +28965,22 @@
       "list_price": 528,
       "discount_percent": 35,
       "url": "http://r1b.jp/item.php?prc=detail&cmd=confirm&sid=4492|7789"
+    },
+    {
+      "id": "1751|3318",
+      "name": "Ｉ Ｂ ワンダーブルー・クリーニングクロス 【ミニ】",
+      "brand": "HI-SP",
+      "brand_id": 18,
+      "maker": "HI-SP",
+      "maker_id": 3,
+      "category_id": 7,
+      "category": "クリーナー",
+      "category_key": "cleaner",
+      "image": "http://r1b.jp/img/image/item/pro_item_20260908161734635289530.jpg",
+      "member_price": 229,
+      "list_price": 418,
+      "discount_percent": 45,
+      "url": "http://r1b.jp/item.php?prc=detail&cmd=confirm&sid=1751|3318"
     },
     {
       "id": "286|570",
