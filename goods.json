@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-10-01T00:30:11+00:00",
+  "fetched_at": "2026-10-02T00:38:56+00:00",
   "source": "http://r1b.jp",
   "categories": [
     {
@@ -310,35 +310,35 @@
     }
   ],
   "counts": {
-    "ボール": 142,
+    "ボール": 145,
     "シューズ": 120,
     "バッグ": 96,
     "ウェア": 928,
     "グローブ": 75,
     "テープ": 126,
-    "クリーナー": 48,
-    "その他": 152
+    "クリーナー": 47,
+    "その他": 151
   },
   "brand_counts": {
     "ABS": 507,
     "Pro-Am": 488,
     "HI-SP": 136,
-    "Storm": 85,
     "Wave": 85,
+    "Storm": 84,
     "Dexter": 60,
-    "Motiv": 45,
+    "Motiv": 46,
     "Steel": 39,
     "Roto Grip": 38,
     "Brunswick": 34,
-    "900 Global": 21,
+    "900 Global": 22,
     "Mechatecter": 21,
-    "Nanodesu": 15,
+    "Nanodesu": 16,
     "Sunbridge": 15,
     "Vise": 15,
     "B+": 14,
     "Legend Star": 11,
-    "その他": 11,
     "Master": 10,
+    "その他": 10,
     "DV8": 8,
     "Radical": 8,
     "Hellbent": 7,
@@ -349,14 +349,14 @@
     "Hammy's": 1
   },
   "maker_counts": {
-    "ABS": 1076,
-    "HI-SP": 270,
+    "ABS": 1079,
+    "HI-SP": 269,
     "サンブリッジ": 171,
-    "ARK": 117,
+    "ARK": 116,
     "STEEL": 39,
     "レジェンドスター": 14
   },
-  "total": 1687,
+  "total": 1688,
   "items": [
     {
       "id": "5261|8892",
@@ -423,6 +423,22 @@
       "url": "http://r1b.jp/item.php?prc=detail&cmd=confirm&sid=5149|8716"
     },
     {
+      "id": "5273|8911",
+      "name": "FORGE FUEL",
+      "brand": "Motiv",
+      "brand_id": 11,
+      "maker": "ABS",
+      "maker_id": 2,
+      "category_id": 1,
+      "category": "ボール",
+      "category_key": "ball",
+      "image": "http://r1b.jp/img/image/item/pro_item_20261001050602631956507.png",
+      "member_price": 40040,
+      "list_price": 71500,
+      "discount_percent": 44,
+      "url": "http://r1b.jp/item.php?prc=detail&cmd=confirm&sid=5273|8911"
+    },
+    {
       "id": "5235|8846",
       "name": "SIGMA TOUR PEARL",
       "brand": "Motiv",
@@ -469,6 +485,22 @@
       "list_price": 70400,
       "discount_percent": 47,
       "url": "http://r1b.jp/item.php?prc=detail&cmd=confirm&sid=5076|8600"
+    },
+    {
+      "id": "5274|8912",
+      "name": "PORTAL",
+      "brand": "900 Global",
+      "brand_id": 15,
+      "maker": "ABS",
+      "maker_id": 2,
+      "category_id": 1,
+      "category": "ボール",
+      "category_key": "ball",
+      "image": "http://r1b.jp/img/image/item/pro_item_202610010509341600771327.png",
+      "member_price": 36729,
+      "list_price": 69300,
+      "discount_percent": 47,
+      "url": "http://r1b.jp/item.php?prc=detail&cmd=confirm&sid=5274|8912"
     },
     {
       "id": "5146|8705",
@@ -1461,6 +1493,22 @@
       "list_price": null,
       "discount_percent": null,
       "url": "http://r1b.jp/item.php?prc=detail&cmd=confirm&sid=5151|8718"
+    },
+    {
+      "id": "5275|8913",
+      "name": "MEGA GRASP",
+      "brand": "Nanodesu",
+      "brand_id": 9,
+      "maker": "ABS",
+      "maker_id": 2,
+      "category_id": 1,
+      "category": "ボール",
+      "category_key": "ball",
+      "image": "http://r1b.jp/img/image/item/pro_item_202610010515521221142215.png",
+      "member_price": 31482,
+      "list_price": 59400,
+      "discount_percent": 47,
+      "url": "http://r1b.jp/item.php?prc=detail&cmd=confirm&sid=5275|8913"
     },
     {
       "id": "5182|8761",
@@ -22231,6 +22279,22 @@
       "url": "http://r1b.jp/item.php?prc=detail&cmd=confirm&sid=3727|6451"
     },
     {
+      "id": "644|1301",
+      "name": "ＴＴ－２５",
+      "brand": "Wave",
+      "brand_id": 1,
+      "maker": "ARK",
+      "maker_id": 4,
+      "category_id": 6,
+      "category": "テープ",
+      "category_key": "tape",
+      "image": "http://r1b.jp/img/image/item/pro_item_202610011027341126082922.jpg",
+      "member_price": 1166,
+      "list_price": 2200,
+      "discount_percent": 47,
+      "url": "http://r1b.jp/item.php?prc=detail&cmd=confirm&sid=644|1301"
+    },
+    {
       "id": "5041|8520",
       "name": "マックス・レブ",
       "brand": "Vise",
@@ -22341,22 +22405,6 @@
       "list_price": 1760,
       "discount_percent": 46,
       "url": "http://r1b.jp/item.php?prc=detail&cmd=confirm&sid=646|1303"
-    },
-    {
-      "id": "644|1301",
-      "name": "ＴＴ－２５",
-      "brand": "Wave",
-      "brand_id": 1,
-      "maker": "ARK",
-      "maker_id": 4,
-      "category_id": 6,
-      "category": "テープ",
-      "category_key": "tape",
-      "image": "http://r1b.jp/img/image/item/pro_item_202606301037011633278466.jpg",
-      "member_price": 932,
-      "list_price": 1760,
-      "discount_percent": 47,
-      "url": "http://r1b.jp/item.php?prc=detail&cmd=confirm&sid=644|1301"
     },
     {
       "id": "1836|3503",
@@ -23303,6 +23351,22 @@
       "url": "http://r1b.jp/item.php?prc=detail&cmd=confirm&sid=304|588"
     },
     {
+      "id": "276|560",
+      "name": "ノンスリップ　シリコンテープ",
+      "brand": "ABS",
+      "brand_id": 10,
+      "maker": "ABS",
+      "maker_id": 2,
+      "category_id": 6,
+      "category": "テープ",
+      "category_key": "tape",
+      "image": "http://r1b.jp/img/image/item/pro_item_20261001051849924191905.jpg",
+      "member_price": 594,
+      "list_price": 990,
+      "discount_percent": 40,
+      "url": "http://r1b.jp/item.php?prc=detail&cmd=confirm&sid=276|560"
+    },
+    {
       "id": "1835|3502",
       "name": "プレミアムボウラーズテープ ＜白＞ 1/2インチ",
       "brand": "Legend Star",
@@ -23671,22 +23735,6 @@
       "url": "http://r1b.jp/item.php?prc=detail&cmd=confirm&sid=4629|7987"
     },
     {
-      "id": "276|560",
-      "name": "ノンスリップ　シリコンテープ",
-      "brand": "ABS",
-      "brand_id": 10,
-      "maker": "ABS",
-      "maker_id": 2,
-      "category_id": 6,
-      "category": "テープ",
-      "category_key": "tape",
-      "image": "http://r1b.jp/img/image/item/pro_item_20220707170933207925345.jpg",
-      "member_price": 435,
-      "list_price": 726,
-      "discount_percent": 40,
-      "url": "http://r1b.jp/item.php?prc=detail&cmd=confirm&sid=276|560"
-    },
-    {
       "id": "650|1307",
       "name": "サムアジャストテープＴＡ－１ａ",
       "brand": "Wave",
@@ -23911,6 +23959,22 @@
       "url": "http://r1b.jp/item.php?prc=detail&cmd=confirm&sid=362|779"
     },
     {
+      "id": "374|797",
+      "name": "ＡＢＳインサートサム　ＩＴ－１",
+      "brand": "ABS",
+      "brand_id": 10,
+      "maker": "ABS",
+      "maker_id": 2,
+      "category_id": 6,
+      "category": "テープ",
+      "category_key": "tape",
+      "image": "http://r1b.jp/img/image/item/pro_item_20261001052154488858521.jpg",
+      "member_price": 396,
+      "list_price": 660,
+      "discount_percent": 40,
+      "url": "http://r1b.jp/item.php?prc=detail&cmd=confirm&sid=374|797"
+    },
+    {
       "id": "617|1258",
       "name": "ハイラテックステ－プ（小）ベ－ジュ",
       "brand": "HI-SP",
@@ -23991,8 +24055,8 @@
       "url": "http://r1b.jp/item.php?prc=detail&cmd=confirm&sid=363|780"
     },
     {
-      "id": "374|797",
-      "name": "ＡＢＳインサートサム　ＩＴ－１",
+      "id": "305|589",
+      "name": "TURBO　クッションテープ　1/4ｲﾝﾁ",
       "brand": "ABS",
       "brand_id": 10,
       "maker": "ABS",
@@ -24000,11 +24064,27 @@
       "category_id": 6,
       "category": "テープ",
       "category_key": "tape",
-      "image": "http://r1b.jp/img/image/item/pro_item_20220331212828825120467.jpg",
+      "image": "http://r1b.jp/img/image/item/pro_item_202610010520552122387036.jpg",
       "member_price": 330,
       "list_price": 550,
       "discount_percent": 40,
-      "url": "http://r1b.jp/item.php?prc=detail&cmd=confirm&sid=374|797"
+      "url": "http://r1b.jp/item.php?prc=detail&cmd=confirm&sid=305|589"
+    },
+    {
+      "id": "306|590",
+      "name": "TURBO　クッションテープ　1/8ｲﾝﾁ",
+      "brand": "ABS",
+      "brand_id": 10,
+      "maker": "ABS",
+      "maker_id": 2,
+      "category_id": 6,
+      "category": "テープ",
+      "category_key": "tape",
+      "image": "http://r1b.jp/img/image/item/pro_item_202610010521142090931400.jpg",
+      "member_price": 330,
+      "list_price": 550,
+      "discount_percent": 40,
+      "url": "http://r1b.jp/item.php?prc=detail&cmd=confirm&sid=306|590"
     },
     {
       "id": "3911|6731",
@@ -24037,38 +24117,6 @@
       "list_price": 462,
       "discount_percent": 35,
       "url": "http://r1b.jp/item.php?prc=detail&cmd=confirm&sid=3908|6727"
-    },
-    {
-      "id": "305|589",
-      "name": "TURBO　クッションテープ　1/4ｲﾝﾁ",
-      "brand": "ABS",
-      "brand_id": 10,
-      "maker": "ABS",
-      "maker_id": 2,
-      "category_id": 6,
-      "category": "テープ",
-      "category_key": "tape",
-      "image": "http://r1b.jp/img/image/item/pro_item_202507221107341862690389.jpg",
-      "member_price": 264,
-      "list_price": 440,
-      "discount_percent": 40,
-      "url": "http://r1b.jp/item.php?prc=detail&cmd=confirm&sid=305|589"
-    },
-    {
-      "id": "306|590",
-      "name": "TURBO　クッションテープ　1/8ｲﾝﾁ",
-      "brand": "ABS",
-      "brand_id": 10,
-      "maker": "ABS",
-      "maker_id": 2,
-      "category_id": 6,
-      "category": "テープ",
-      "category_key": "tape",
-      "image": "http://r1b.jp/img/image/item/pro_item_20250722110759740026717.jpg",
-      "member_price": 264,
-      "list_price": 440,
-      "discount_percent": 40,
-      "url": "http://r1b.jp/item.php?prc=detail&cmd=confirm&sid=306|590"
     },
     {
       "id": "3909|6728",
@@ -24261,22 +24309,6 @@
       "list_price": 4070,
       "discount_percent": 45,
       "url": "http://r1b.jp/item.php?prc=detail&cmd=confirm&sid=5269|8905"
-    },
-    {
-      "id": "1291|2585",
-      "name": "シャミー",
-      "brand": "Storm",
-      "brand_id": 16,
-      "maker": "HI-SP",
-      "maker_id": 3,
-      "category_id": 7,
-      "category": "クリーナー",
-      "category_key": "cleaner",
-      "image": "http://r1b.jp/img/image/item/pro_item_202609181011041887253764.jpg",
-      "member_price": 2238,
-      "list_price": 4070,
-      "discount_percent": 45,
-      "url": "http://r1b.jp/item.php?prc=detail&cmd=confirm&sid=1291|2585"
     },
     {
       "id": "1292|2588",
@@ -26199,6 +26231,22 @@
       "url": "http://r1b.jp/item.php?prc=detail&cmd=confirm&sid=317|601"
     },
     {
+      "id": "298|582",
+      "name": "パフ・ボール",
+      "brand": "ABS",
+      "brand_id": 10,
+      "maker": "ABS",
+      "maker_id": 2,
+      "category_id": 8,
+      "category": "その他",
+      "category_key": "other",
+      "image": "http://r1b.jp/img/image/item/pro_item_20261001051951102335378.jpg",
+      "member_price": 792,
+      "list_price": 1320,
+      "discount_percent": 40,
+      "url": "http://r1b.jp/item.php?prc=detail&cmd=confirm&sid=298|582"
+    },
+    {
       "id": "352|739",
       "name": "フラットノーマルヒール",
       "brand": "ABS",
@@ -26279,8 +26327,8 @@
       "url": "http://r1b.jp/item.php?prc=detail&cmd=confirm&sid=4575|7905"
     },
     {
-      "id": "298|582",
-      "name": "パフ・ボール",
+      "id": "302|586",
+      "name": "ジャイアントスキンパッチ",
       "brand": "ABS",
       "brand_id": 10,
       "maker": "ABS",
@@ -26288,11 +26336,11 @@
       "category_id": 8,
       "category": "その他",
       "category_key": "other",
-      "image": "http://r1b.jp/img/image/item/pro_item_202211011134591752123946.jpg",
+      "image": "http://r1b.jp/img/image/item/pro_item_202610010520151798239222.jpg",
       "member_price": 726,
       "list_price": 1210,
       "discount_percent": 40,
-      "url": "http://r1b.jp/item.php?prc=detail&cmd=confirm&sid=298|582"
+      "url": "http://r1b.jp/item.php?prc=detail&cmd=confirm&sid=302|586"
     },
     {
       "id": "5080|8604",
@@ -26423,22 +26471,6 @@
       "url": "http://r1b.jp/item.php?prc=detail&cmd=confirm&sid=334|653"
     },
     {
-      "id": "302|586",
-      "name": "ジャイアントスキンパッチ",
-      "brand": "ABS",
-      "brand_id": 10,
-      "maker": "ABS",
-      "maker_id": 2,
-      "category_id": 8,
-      "category": "その他",
-      "category_key": "other",
-      "image": "http://r1b.jp/img/image/item/pro_item_202504031822262064190169.jpg",
-      "member_price": 660,
-      "list_price": 1100,
-      "discount_percent": 40,
-      "url": "http://r1b.jp/item.php?prc=detail&cmd=confirm&sid=302|586"
-    },
-    {
       "id": "322|606",
       "name": "スライドパーツ　フエルト",
       "brand": "ABS",
@@ -26469,6 +26501,22 @@
       "list_price": 1199,
       "discount_percent": 45,
       "url": "http://r1b.jp/item.php?prc=detail&cmd=confirm&sid=579|1220"
+    },
+    {
+      "id": "278|562",
+      "name": "ボウリング　バンド",
+      "brand": "ABS",
+      "brand_id": 10,
+      "maker": "ABS",
+      "maker_id": 2,
+      "category_id": 8,
+      "category": "その他",
+      "category_key": "other",
+      "image": "http://r1b.jp/img/image/item/pro_item_202610010519251089478920.jpg",
+      "member_price": 559,
+      "list_price": 935,
+      "discount_percent": 40,
+      "url": "http://r1b.jp/item.php?prc=detail&cmd=confirm&sid=278|562"
     },
     {
       "id": "690|1410",
@@ -26567,22 +26615,6 @@
       "url": "http://r1b.jp/item.php?prc=detail&cmd=confirm&sid=184|371"
     },
     {
-      "id": "278|562",
-      "name": "ボウリング　バンド",
-      "brand": "ABS",
-      "brand_id": 10,
-      "maker": "ABS",
-      "maker_id": 2,
-      "category_id": 8,
-      "category": "その他",
-      "category_key": "other",
-      "image": "http://r1b.jp/img/image/item/pro_item_20150324114327456758171.jpg",
-      "member_price": 493,
-      "list_price": 825,
-      "discount_percent": 40,
-      "url": "http://r1b.jp/item.php?prc=detail&cmd=confirm&sid=278|562"
-    },
-    {
       "id": "691|1411",
       "name": "ノンスリップパウダー",
       "brand": "Wave",
@@ -26645,22 +26677,6 @@
       "list_price": 880,
       "discount_percent": 45,
       "url": "http://r1b.jp/item.php?prc=detail&cmd=confirm&sid=4585|7942"
-    },
-    {
-      "id": "1357|2693",
-      "name": "ツカエ",
-      "brand": "その他",
-      "brand_id": null,
-      "maker": "ARK",
-      "maker_id": 4,
-      "category_id": 8,
-      "category": "その他",
-      "category_key": "other",
-      "image": "http://r1b.jp/img/image/item/pro_item_20161004165541278173587.jpg",
-      "member_price": 464,
-      "list_price": 715,
-      "discount_percent": 35,
-      "url": "http://r1b.jp/item.php?prc=detail&cmd=confirm&sid=1357|2693"
     },
     {
       "id": "320|604",
