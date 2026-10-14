@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-10-14T00:15:48+00:00",
+  "fetched_at": "2026-10-14T23:48:53+00:00",
   "source": "http://r1b.jp",
   "categories": [
     {
@@ -310,26 +310,26 @@
     }
   ],
   "counts": {
-    "ボール": 145,
+    "ボール": 152,
     "シューズ": 120,
     "バッグ": 96,
     "ウェア": 853,
     "グローブ": 75,
     "テープ": 126,
-    "クリーナー": 48,
+    "クリーナー": 47,
     "その他": 151
   },
   "brand_counts": {
     "ABS": 493,
     "Pro-Am": 427,
     "HI-SP": 136,
-    "Storm": 85,
     "Wave": 85,
+    "Storm": 84,
     "Dexter": 60,
     "Motiv": 46,
     "Steel": 39,
     "Roto Grip": 38,
-    "Brunswick": 34,
+    "Brunswick": 36,
     "900 Global": 22,
     "Mechatecter": 21,
     "Nanodesu": 16,
@@ -337,26 +337,26 @@
     "Vise": 15,
     "B+": 14,
     "Legend Star": 11,
+    "DV8": 10,
     "Master": 10,
     "その他": 10,
-    "DV8": 8,
-    "Radical": 8,
+    "Radical": 9,
     "Hellbent": 7,
-    "Hammer": 5,
+    "Hammer": 6,
     "Ebonite": 4,
-    "Track": 2,
+    "Track": 3,
     "Turbo": 2,
     "Hammy's": 1
   },
   "maker_counts": {
     "ABS": 1004,
-    "HI-SP": 270,
-    "サンブリッジ": 171,
+    "HI-SP": 269,
+    "サンブリッジ": 178,
     "ARK": 116,
     "STEEL": 39,
     "レジェンドスター": 14
   },
-  "total": 1614,
+  "total": 1620,
   "items": [
     {
       "id": "5261|8892",
@@ -951,6 +951,22 @@
       "url": "http://r1b.jp/item.php?prc=detail&cmd=confirm&sid=5217|8820"
     },
     {
+      "id": "5277|8915",
+      "name": "アウトサイダー（※限定品のため返品不可)",
+      "brand": "DV8",
+      "brand_id": 4,
+      "maker": "サンブリッジ",
+      "maker_id": 1,
+      "category_id": 1,
+      "category": "ボール",
+      "category_key": "ball",
+      "image": "http://r1b.jp/img/image/item/pro_item_202610021215511811331738.png",
+      "member_price": 34822,
+      "list_price": null,
+      "discount_percent": null,
+      "url": "http://r1b.jp/item.php?prc=detail&cmd=confirm&sid=5277|8915"
+    },
+    {
       "id": "5249|8873",
       "name": "インテンス・コリジョン™（※限定品のため返品不可)",
       "brand": "DV8",
@@ -1031,6 +1047,22 @@
       "url": "http://r1b.jp/item.php?prc=detail&cmd=confirm&sid=5264|8897"
     },
     {
+      "id": "5281|8919",
+      "name": "シンセシス・プライム（※限定品のため返品不可)",
+      "brand": "Track",
+      "brand_id": 37,
+      "maker": "サンブリッジ",
+      "maker_id": 1,
+      "category_id": 1,
+      "category": "ボール",
+      "category_key": "ball",
+      "image": "http://r1b.jp/img/image/item/pro_item_202610021227151830098508.png",
+      "member_price": 34822,
+      "list_price": null,
+      "discount_percent": null,
+      "url": "http://r1b.jp/item.php?prc=detail&cmd=confirm&sid=5281|8919"
+    },
+    {
       "id": "5171|8742",
       "name": "ストラテジー™",
       "brand": "Brunswick",
@@ -1045,6 +1077,22 @@
       "list_price": null,
       "discount_percent": null,
       "url": "http://r1b.jp/item.php?prc=detail&cmd=confirm&sid=5171|8742"
+    },
+    {
+      "id": "5276|8914",
+      "name": "ストラテジー・ロジック（※限定品のため返品不可)",
+      "brand": "Brunswick",
+      "brand_id": 5,
+      "maker": "サンブリッジ",
+      "maker_id": 1,
+      "category_id": 1,
+      "category": "ボール",
+      "category_key": "ball",
+      "image": "http://r1b.jp/img/image/item/pro_item_202610021214481347859868.png",
+      "member_price": 34822,
+      "list_price": null,
+      "discount_percent": null,
+      "url": "http://r1b.jp/item.php?prc=detail&cmd=confirm&sid=5276|8914"
     },
     {
       "id": "5266|8899",
@@ -1127,6 +1175,22 @@
       "url": "http://r1b.jp/item.php?prc=detail&cmd=confirm&sid=5250|8874"
     },
     {
+      "id": "5282|8920",
+      "name": "ブラックウィドー 3.0 ルビー",
+      "brand": "Hammer",
+      "brand_id": 36,
+      "maker": "サンブリッジ",
+      "maker_id": 1,
+      "category_id": 1,
+      "category": "ボール",
+      "category_key": "ball",
+      "image": "http://r1b.jp/img/image/item/pro_item_202610021229431317890468.png",
+      "member_price": 34822,
+      "list_price": null,
+      "discount_percent": null,
+      "url": "http://r1b.jp/item.php?prc=detail&cmd=confirm&sid=5282|8920"
+    },
+    {
       "id": "5203|8799",
       "name": "ブラックウィドー・ハイブリッド ブラックサファイア™（※限定品のため返品不可)",
       "brand": "Hammer",
@@ -1157,6 +1221,22 @@
       "list_price": null,
       "discount_percent": null,
       "url": "http://r1b.jp/item.php?prc=detail&cmd=confirm&sid=5202|8798"
+    },
+    {
+      "id": "5280|8918",
+      "name": "ヴェクスト・ヴァリアント（※限定品のため返品不可)",
+      "brand": "Radical",
+      "brand_id": 24,
+      "maker": "サンブリッジ",
+      "maker_id": 1,
+      "category_id": 1,
+      "category": "ボール",
+      "category_key": "ball",
+      "image": "http://r1b.jp/img/image/item/pro_item_20261002122435738933770.png",
+      "member_price": 34822,
+      "list_price": null,
+      "discount_percent": null,
+      "url": "http://r1b.jp/item.php?prc=detail&cmd=confirm&sid=5280|8918"
     },
     {
       "id": "5259|8890",
@@ -1335,6 +1415,22 @@
       "url": "http://r1b.jp/item.php?prc=detail&cmd=confirm&sid=5200|8796"
     },
     {
+      "id": "5279|8917",
+      "name": "スムース・クリミナル（※限定品のため返品不可)",
+      "brand": "DV8",
+      "brand_id": 4,
+      "maker": "サンブリッジ",
+      "maker_id": 1,
+      "category_id": 1,
+      "category": "ボール",
+      "category_key": "ball",
+      "image": "http://r1b.jp/img/image/item/pro_item_20261002122140409847389.png",
+      "member_price": 33313,
+      "list_price": null,
+      "discount_percent": null,
+      "url": "http://r1b.jp/item.php?prc=detail&cmd=confirm&sid=5279|8917"
+    },
+    {
       "id": "5253|8877",
       "name": "セオレム・デルタ™（※限定品のため返品不可)",
       "brand": "Track",
@@ -1381,6 +1477,22 @@
       "list_price": null,
       "discount_percent": null,
       "url": "http://r1b.jp/item.php?prc=detail&cmd=confirm&sid=5221|8827"
+    },
+    {
+      "id": "5278|8916",
+      "name": "パープルライノプロ（※限定品のため返品不可)",
+      "brand": "Brunswick",
+      "brand_id": 5,
+      "maker": "サンブリッジ",
+      "maker_id": 1,
+      "category_id": 1,
+      "category": "ボール",
+      "category_key": "ball",
+      "image": "http://r1b.jp/img/image/item/pro_item_20261002121842835899667.png",
+      "member_price": 33313,
+      "list_price": null,
+      "discount_percent": null,
+      "url": "http://r1b.jp/item.php?prc=detail&cmd=confirm&sid=5278|8916"
     },
     {
       "id": "5248|8872",
@@ -2727,22 +2839,6 @@
       "url": "http://r1b.jp/item.php?prc=detail&cmd=confirm&sid=4072|7052"
     },
     {
-      "id": "5225|8832",
-      "name": "SST X",
-      "brand": "Dexter",
-      "brand_id": 6,
-      "maker": "サンブリッジ",
-      "maker_id": 1,
-      "category_id": 2,
-      "category": "シューズ",
-      "category_key": "shoes",
-      "image": "http://r1b.jp/img/image/item/pro_item_202607071149311664802079.jpg",
-      "member_price": 31350,
-      "list_price": 55000,
-      "discount_percent": 43,
-      "url": "http://r1b.jp/item.php?prc=detail&cmd=confirm&sid=5225|8832"
-    },
-    {
       "id": "5226|8833",
       "name": "SST X",
       "brand": "Dexter",
@@ -2757,6 +2853,22 @@
       "list_price": 55000,
       "discount_percent": 43,
       "url": "http://r1b.jp/item.php?prc=detail&cmd=confirm&sid=5226|8833"
+    },
+    {
+      "id": "5225|8832",
+      "name": "SST X",
+      "brand": "Dexter",
+      "brand_id": 6,
+      "maker": "サンブリッジ",
+      "maker_id": 1,
+      "category_id": 2,
+      "category": "シューズ",
+      "category_key": "shoes",
+      "image": "http://r1b.jp/img/image/item/pro_item_202607071149311664802079.jpg",
+      "member_price": 31350,
+      "list_price": 55000,
+      "discount_percent": 43,
+      "url": "http://r1b.jp/item.php?prc=detail&cmd=confirm&sid=5225|8832"
     },
     {
       "id": "5057|8546",
@@ -23109,22 +23221,6 @@
       "list_price": 4070,
       "discount_percent": 45,
       "url": "http://r1b.jp/item.php?prc=detail&cmd=confirm&sid=5269|8905"
-    },
-    {
-      "id": "1291|2585",
-      "name": "シャミー",
-      "brand": "Storm",
-      "brand_id": 16,
-      "maker": "HI-SP",
-      "maker_id": 3,
-      "category_id": 7,
-      "category": "クリーナー",
-      "category_key": "cleaner",
-      "image": "http://r1b.jp/img/image/item/pro_item_202609181011041887253764.jpg",
-      "member_price": 2238,
-      "list_price": 4070,
-      "discount_percent": 45,
-      "url": "http://r1b.jp/item.php?prc=detail&cmd=confirm&sid=1291|2585"
     },
     {
       "id": "1292|2588",
